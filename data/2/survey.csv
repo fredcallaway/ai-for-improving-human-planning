@@ -1,0 +1,231 @@
+pid,responses,rt,time_elapsed
+0,"{""Q0"":""Think logically""}",33798,853568
+0,"{""Q0"":""35"",""Q1"":""Female""}",19980,1447993
+1,"{""Q0"":""i start clicking on end nodes more often""}",14384,277710
+1,"{""Q0"":""23"",""Q1"":""male""}",5192,705634
+2,"{""Q0"":""I learned to use the nodes. ""}",10861,191387
+2,"{""Q0"":""19"",""Q1"":""Prefer not to say. ""}",15498,481634
+3,"{""Q0"":""I have learned that clicking on the last node in a line gives more valuable information then clicking on the first ones. You want to always head towards a 48 last node. At the beginning, I was clicking the first nodes surrounding my spider and going on the path of the largest number (like, number 4). Turns out, those numbers really don't matter.""}",95074,379496
+3,"{""Q0"":""42"",""Q1"":""female""}",12237,769922
+4,"{""Q0"":""I learned that the patterns differed and it was really up to me to decipher where the value was. Reminded me of minesweeper. ""}",41801,193747
+4,"{""Q0"":""29"",""Q1"":""Male""}",4746,601749
+5,"{""Q0"":""I have learned that it is best to inspect the far nodes and then look for any differences to find the path of highest pay off. ""}",23508,248979
+5,"{""Q0"":""19"",""Q1"":""Female""}",6714,591143
+7,"{""Q0"":""I didn't learn anything I would have played the game the same way I had played trying to focus on obtaining 48$.""}",24816,287050
+7,"{""Q0"":""25"",""Q1"":""Male""}",11347,620602
+8,"{""Q0"":""I started by clicking the nodes directly surrounding the spider but learned to select the ending nodes. Also once I find the positive 48 node I shouldn't look at anymore nodes but sometimes there isn't a +48 node.""}",52872,296214
+8,"{""Q0"":""33"",""Q1"":""male""}",6588,691868
+9,"{""Q0"":""Initially, my strategy was to inspect the far middle ones, then the right or left one (or top and bottom node), then move accordingly. But the tutor taught me that inspecting the corner nodes was a better strategy, so I did that. \n\nI also learned that the highest amount is in the corner ones, and really inspecting any other nodes is a waste of money. The absolute max you should lose inspecting nodes is $6. You should always land a profit.""}",148996,433407
+9,"{""Q0"":""23"",""Q1"":""Male""}",10974,907630
+10,"{""Q0"":""I learned that it is worth spending money in order to find the most profitable route ""}",37119,295603
+10,"{""Q0"":""30"",""Q1"":""Female""}",10751,687153
+11,"{""Q0"":""I only use the node inspector to figure out what initial path to take.""}",40213,273458
+11,"{""Q0"":""29"",""Q1"":""Female""}",8588,588097
+12,"{""Q0"":""checking more nodes to make better decisions.""}",46112,562173
+12,"{""Q0"":""55"",""Q1"":""male""}",18942,1258862
+13,"{""Q0"":""Typically if one side of the node (ie bottom right) is a negative number, the other side (ie top right) is positive. I'm stopping clicking after I find 48""}",54169,268144
+13,"{""Q0"":""34"",""Q1"":""male""}",8144,641589
+14,"{""Q0"":""The best way is to find the corner with +48 and go for it. There always seems to be a corner with one. At first I was clicking anywhere.""}",28108,229950
+14,"{""Q0"":""33"",""Q1"":""female""}",18957,630014
+15,"{""Q0"":""I found it true that the assigned numbers are random at each node. ""}",39387,461356
+15,"{""Q0"":""27"",""Q1"":""female""}",15064,922452
+16,"{""Q0"":""I should start by selecting the end nodes. If I find a node that is $48 I should automatically advance to that node.""}",33164,279516
+16,"{""Q0"":""25"",""Q1"":""nonbinary""}",7597,645936
+17,"{""Q0"":""I've learned to click all the nodes since the value will still be positive as long as I know the destination. ""}",34541,473880
+17,"{""Q0"":""29"",""Q1"":""Male""}",7531,914093
+18,"{""Q0"":""Was clicking all nodes but just finding the highest ones at first""}",17741,274869
+18,"{""Q0"":""30"",""Q1"":""female""}",8726,580537
+19,"{""Q0"":""I was just looking for the best path to make the most money.""}",20128,239524
+19,"{""Q0"":""39"",""Q1"":""Male""}",7465,896190
+20,"{""Q0"":""I'm only clicking enough end points to find the $48 reward. Once I see it I choose that path. If I don't find $48, I settle for $24.""}",52541,305098
+20,"{""Q0"":""33"",""Q1"":""male""}",13931,758692
+21,"{""Q0"":""You need to see the value of each node and even if you loose some money at first it might make you more money""}",35527,246583
+21,"{""Q0"":""31"",""Q1"":""female""}",6925,767726
+22,"{""Q0"":""I learned to click on the nodes that are on the ends of the spiderweb in order to find the highest value before proceeding. ""}",72391,478242
+22,"{""Q0"":""38"",""Q1"":""male""}",16329,1142383
+23,"{""Q0"":""I didn't learn much because I don't understand why some of my choices were being criticized.  Just because I might get lucky and pick a +48 doesn't mean that the path to that node is perfect.  ""}",72114,606066
+23,"{""Q0"":""49"",""Q1"":""male""}",11993,1254514
+24,"{""Q0"":""I select the final nodes first and move towards the highest paying one""}",30428,698260
+24,"{""Q0"":""24"",""Q1"":""female""}",6755,1014840
+26,"{""Q0"":""Pick the end nodes to reveal first. As soon as I see a $48 node, go to that node. If I reveal all the end nodes and one is $24, go to that node""}",42520,366456
+26,"{""Q0"":""34"",""Q1"":""female""}",6892,862353
+27,"{""Q0"":""Well, I've learned how to move the spider. And I've learned that I can't get hints on any spaces except the first ones. And I think I have to go all the way to the last space. Once I'm past those first spaces it's hit or miss. I didn't find any way to predict anything and I just watched my total go down and down, so I pretty much expect the actual game to go the same way.""}",163610,396898
+28,"{""Q0"":""I am checking the final chances first looking for a positive option""}",53580,427751
+28,"{""Q0"":""45"",""Q1"":""male""}",16892,960159
+29,"{""Q0"":""I'm looking for the highest payout first and then the lowest-loss path to get there without clicking all of the paths.  Once I find a +48, typically I'll just navigate to that.""}",55685,231451
+29,"{""Q0"":""40"",""Q1"":""Male""}",17254,730623
+30,"{""Q0"":""Seems like the highest rewards are the farthest away. Exploring the farthest nodes first then working back from there.""}",122171,556504
+30,"{""Q0"":""31"",""Q1"":""Male""}",19648,1528533
+31,"{""Q0"":""I have learned that the farthest nodes have the largest numbers in them, I have learned that it is more valuable to spend $1 to check the size of the farthest nodes.""}",27660,284205
+31,"{""Q0"":""24"",""Q1"":""male""}",5704,683024
+32,"{""Q0"":""To check the nods""}",29275,486858
+32,"{""Q0"":""18"",""Q1"":""Female""}",28547,1042811
+33,"{""Q0"":""I've learned that it is best to click on the very last node in each path until I reveal a $48.\nI no longer click every node in a path.""}",294908,845313
+33,"{""Q0"":""32"",""Q1"":""Male""}",63417,1642487
+34,"{""Q0"":""I learned that I can save money if I manage to find the +48 as soon as possible. ""}",58718,242674
+34,"{""Q0"":""28"",""Q1"":""Male""}",8880,647532
+35,"{""Q0"":""I found a path of nodes which gave fairly consistent rewards - so I have been using that rather than randomly guessing""}",24688,1001329
+35,"{""Q0"":""28"",""Q1"":""Male""}",6473,1526109
+36,"{""Q0"":""am now checking the last node only instead of checking all that i do before""}",84748,601212
+36,"{""Q0"":""25"",""Q1"":""male""}",13037,1185464
+37,"{""Q0"":""I'm checking the final 6 nodes instead of starting on the inner ones""}",30933,320615
+37,"{""Q0"":""38"",""Q1"":""male""}",6147,1137740
+38,"{""Q0"":""Once you identify a route that is worth $48, it is no longer worth it to look at other nodes. But it is worth it to peak at the different nodes otherwise.""}",40864,363645
+38,"{""Q0"":""28"",""Q1"":""Female""}",8667,791354
+39,"{""Q0"":""It is totally worth it to pay for the node inspector.""}",19755,255283
+39,"{""Q0"":""29"",""Q1"":""Female""}",8739,702822
+40,"{""Q0"":""i learned how to play each rounds""}",9503,294223
+40,"{""Q0"":""28"",""Q1"":""male""}",24529,783692
+41,"{""Q0"":""Based on the results, the most important nodes to know about are the last points because they typically have the highest value. Therefore it is most important to determine their value and less important to look at the starting nodes""}",55042,290835
+41,"{""Q0"":""26"",""Q1"":""male""}",9642,710101
+42,"{""Q0"":""I click on the ending node to figure out where the highest green ending spot is""}",31640,398121
+42,"{""Q0"":""34"",""Q1"":""Female""}",10231,779974
+43,"{""Q0"":""I learned to check the end points finding the higher values. ""}",23945,693463
+43,"{""Q0"":""26"",""Q1"":""Female""}",10781,1095285
+44,"{""Q0"":""to find the one with highest value. to select the outside ones first""}",175874,719896
+44,"{""Q0"":""70"",""Q1"":""male""}",21830,1332408
+45,"{""Q0"":""I have learned that choosing a different way doesn't mean you will have a different result.""}",50033,276546
+45,"{""Q0"":""43"",""Q1"":""f""}",6133,581572
+46,"{""Q0"":""I learned that I need to check all of the ends before making a decision on which direction to move. I followed the advice given by the intelligent tutor. It was very helpful in teaching me the right moves to make. I am now looking for the end with the highest amount of money.""}",110186,632405
+46,"{""Q0"":""44"",""Q1"":""female""}",8813,1338188
+47,"{""Q0"":""I learned to click the nodes that are furthest away, when at the beginning I was clicking the closest ones ""}",43617,383708
+47,"{""Q0"":""44"",""Q1"":""female""}",19375,1004824
+48,"{""Q0"":""I learned that it pays to check each node if it only costs a dollar and I earn 20 dollars more.""}",23013,355059
+48,"{""Q0"":""32"",""Q1"":""Male""}",10014,792530
+49,"{""Q0"":""I have learned how to play and have practiced the game. I should have inspected more nodes from the start.""}",23225,341323
+49,"{""Q0"":""22"",""Q1"":""Male""}",8072,976015
+50,"{""Q0"":""I am more selective of the nodes, focusing on the outcome.""}",28215,275794
+50,"{""Q0"":""31"",""Q1"":""Male""}",10295,719147
+51,"{""Q0"":""I'm revealing more node amounts, but not revealing when it is impossible to improve a path I've already revealed.""}",58395,586197
+51,"{""Q0"":""50"",""Q1"":""Male""}",12605,1767642
+52,"{""Q0"":""i learned to check until i found the highest payout, the negatives along the way and the cost to check does not negate the benefit of doing so""}",41628,332670
+52,"{""Q0"":""28"",""Q1"":""female""}",10233,831785
+53,"{""Q0"":""it is very unpredictable. I would do everything the same""}",42545,867942
+53,"{""Q0"":""37"",""Q1"":""female""}",19941,1415816
+54,"{""Q0"":""I learned to start inspecting nodes from the outsides in. Once I find a node that is 48, no need to inspect anymore nodes. In the beginning, I was inspecting nodes closest to the spider first. ""}",37141,1020757
+54,"{""Q0"":""35"",""Q1"":""female""}",6763,1526373
+55,"{""Q0"":""I learned to be patient and uncover more nodes to figure out the optimal path.""}",35965,518789
+55,"{""Q0"":""38"",""Q1"":""female""}",10657,1120908
+56,"{""Q0"":""Keep clicking until you find the maximum 48 and go to that""}",25663,416600
+56,"{""Q0"":""27"",""Q1"":""Male""}",10529,895652
+57,"{""Q0"":""I have learned to inspect the nodes furthest away first.""}",15148,247959
+57,"{""Q0"":""24"",""Q1"":""Female""}",8818,730626
+58,"{""Q0"":""I learned that it's definitely worth checking the values before moving, and that this game is heavily stacked against the player.""}",31987,243103
+58,"{""Q0"":""25"",""Q1"":""Male""}",11778,590309
+59,"{""Q0"":""I learned to take chances and that the amounts do change. Also, I wish the game lasted longer,""}",89791,332356
+59,"{""Q0"":""49"",""Q1"":""female""}",12733,697966
+60,"{""Q0"":""I learned to plan ahead and make choices based on the correct and most profitable path. ""}",21573,315133
+60,"{""Q0"":""34"",""Q1"":""Male ""}",8996,620091
+61,"{""Q0"":""I am spending my money on the nodes at the end to see what value is there. When I find 48 I follow that node. I know that whatever I may win or lose in travel will be made up with the high reward at the end.""}",49703,315188
+61,"{""Q0"":""31"",""Q1"":""Female""}",9976,738700
+62,"{""Q0"":""I was getting the nodes wrong, now I know how to navigate and do them.""}",29455,411585
+62,"{""Q0"":""31"",""Q1"":""Female""}",19657,991649
+63,"{""Q0"":""I learned that it's best to just see what each node at the beginning has to offer. $1 doesn't seem to be a lot in this game.""}",84462,341799
+63,"{""Q0"":""25"",""Q1"":""female""}",17155,799880
+64,"{""Q0"":""I am clicking nodes until i find the one for 48""}",29974,418222
+64,"{""Q0"":""45"",""Q1"":""female""}",10300,796739
+65,"{""Q0"":""I learned that I needed to click on all the nodes beforehand to make a sane decision. I didn't quite understand how to click the nodes until I got farther into the game. ""}",90319,616979
+65,"{""Q0"":""47"",""Q1"":""female""}",12078,1141205
+66,"{""Q0"":""I am choosing where the spider will end and not what is in front of me.""}",54055,267462
+66,"{""Q0"":""34"",""Q1"":""male""}",10848,831059
+67,"{""Q0"":""I am focusing more on the arrows and the directions of the arrows.""}",48773,2180172
+67,"{""Q0"":""48"",""Q1"":""female""}",14864,2591923
+68,"{""Q0"":""Initially i'm trying to understand this game. after carefully read all instructions i have learned to play a game. after that i have take my decisions  to complete the task.""}",295391,693893
+68,"{""Q0"":""26"",""Q1"":""female""}",20716,1027677
+69,"{""Q0"":""Picking my future node since, that is where the most cash is at.""}",26455,431791
+69,"{""Q0"":""25"",""Q1"":""male""}",20058,926713
+70,"{""Q0"":""I click the end paths to locate the $48 tip and travel in that direction. I avoided the wait times better at the end.""}",26989,329021
+70,"{""Q0"":""28"",""Q1"":""male""}",8173,654026
+71,"{""Q0"":""When I see a +48, I stop checking the nodes.""}",43105,723463
+71,"{""Q0"":""47"",""Q1"":""male""}",24708,1504741
+72,"{""Q0"":""Instead of clicking on all of the nodes, I picked the end nodes to see where the biggest number was""}",23051,290971
+72,"{""Q0"":""41"",""Q1"":""Female""}",8481,716194
+73,"{""Q0"":""I'm checking for a +48 before I move""}",28860,390358
+73,"{""Q0"":""55"",""Q1"":""female""}",8593,891464
+74,"{""Q0"":""It will click simply perform well ""}",47495,412014
+74,"{""Q0"":""28"",""Q1"":""Male""}",6375,959868
+75,"{""Q0"":""I learned to gain some cash.""}",57820,614885
+75,"{""Q0"":""28"",""Q1"":""Male""}",5704,1097223
+76,"{""Q0"":""Checking more nodes to find the absolute best path.""}",17220,611964
+76,"{""Q0"":""44"",""Q1"":""Male""}",6951,944498
+77,"{""Q0"":""I started clicking on the last nodes, the ones I would end up on. Instead of all of the middle ones.""}",27292,443363
+77,"{""Q0"":""21"",""Q1"":""Male""}",5625,844877
+78,"{""Q0"":""only looking at th end point nodes because the first two moves don't matter that much""}",44291,303271
+78,"{""Q0"":""39"",""Q1"":""male""}",19525,716223
+79,"{""Q0"":""The value of the prize or penalty almost always increases as you go further from the center, though it isn't always maximum. Check the outer nodes first (furthest from center) and if it's max positive go straight there, you'll make more than you'll lose. If you don't find a maximum go for the highest positive and if there's a tie start comparing the paths. At first I was checking all the nodes until the pattern became clear.""}",107271,461076
+79,"{""Q0"":""47"",""Q1"":""male""}",7743,993868
+80,"{""Q0"":""i learn some information and some training session was different.""}",32504,376946
+80,"{""Q0"":""30"",""Q1"":""Male""}",9710,717634
+82,"{""Q0"":""Nothing, it's loud and clear""}",10553,330625
+82,"{""Q0"":""22"",""Q1"":""Female""}",6142,595496
+83,"{""Q0"":""I check for destination with the highest reward""}",25808,523518
+83,"{""Q0"":""28"",""Q1"":""Male""}",12460,1155241
+84,"{""Q0"":""I learned it easier to just check to see which one has the highest. So I would click on the last ones of the 3 to see which had 48 in green and go from there. I did nothing different throughout the entire thing\n""}",58230,319925
+84,"{""Q0"":""35"",""Q1"":""female""}",9740,994560
+85,"{""Q0"":""I tend to look for a +48 and then go to it. Before I was looking at the whole path.""}",29270,343129
+85,"{""Q0"":""29"",""Q1"":""Male""}",8249,804912
+86,"{""Q0"":""Clicking on end nodes to find a good target final node.""}",13086,155523
+86,"{""Q0"":""30"",""Q1"":""female""}",4362,414571
+87,"{""Q0"":""Looking ahead instead of just the first move.  ""}",87942,740469
+87,"{""Q0"":""25"",""Q1"":""Male""}",18144,1381199
+88,"{""Q0"":""Check all end nodes first. Find the best route to the best node after""}",35791,402670
+88,"{""Q0"":""38"",""Q1"":""Male""}",14405,1040206
+89,"{""Q0"":""That clicking a node made it advance faster""}",25971,906623
+89,"{""Q0"":""59"",""Q1"":""female""}",9446,1441018
+90,"{""Q0"":""that it is better to use the Node inspecter""}",24638,276479
+90,"{""Q0"":""39"",""Q1"":""male""}",8544,728509
+91,"{""Q0"":""I learned not to use as many clicks for $1. I only need to click a max of 2/3 and avoid the negatives.""}",33338,212562
+91,"{""Q0"":""27"",""Q1"":""Female""}",6394,501953
+92,"{""Q0"":""I learn to use the indicator. so now i will be able to find the right direction to move. that too, 3 times i can use.""}",59255,582275
+92,"{""Q0"":""29"",""Q1"":""Male""}",10115,1152185
+93,"{""Q0"":""I kept the same strategy actually. I decided to make sure the end path was worth the maximum points and the path leading to it wasn't too negative leading to it.  So basically, hindsight really is 20/20 because I never would have done as well without being able to \""click into the future\"". ""}",509811,888517
+93,"{""Q0"":""29"",""Q1"":""Male""}",13224,1519602
+94,"{""Q0"":""That you can just click on the end points instead of the whole path to try to achieve the highest monetary amount""}",26599,193608
+94,"{""Q0"":""20"",""Q1"":""Male""}",6781,843130
+95,"{""Q0"":""i have learnt to move the spider through web of cash""}",40121,349124
+95,"{""Q0"":""26"",""Q1"":""male""}",21102,1513371
+96,"{""Q0"":""I tried to skip viewing the nodes to save money and it backfired tremendously. I should have used the clues. ""}",35705,371868
+96,"{""Q0"":""21"",""Q1"":""Female""}",10742,873309
+97,"{""Q0"":""I have learned that once I find a periphery space with a maximum gain value, I should stop revealing any other spaces. Also, I should always reveal spaces on the periphery first.""}",43259,392681
+97,"{""Q0"":""27"",""Q1"":""Male""}",8734,1014812
+98,"{""Q0"":""I like to go around the edges and see which end point is the highest and pay for that route.""}",23346,231626
+98,"{""Q0"":""20"",""Q1"":""male""}",13162,651490
+100,"{""Q0"":""Definitely learned a strategy to this game. It's best to start clicking on the end nodes to see their value, and if one of them is plus 48 just get to that nod""}",70468,505789
+100,"{""Q0"":""28"",""Q1"":""Male""}",84358,1382150
+101,"{""Q0"":""I am looking for the 48 circle and then going there.""}",23542,324604
+101,"{""Q0"":""49"",""Q1"":""female""}",11849,867727
+102,"{""Q0"":""nothing""}",22738,825595
+102,"{""Q0"":""44"",""Q1"":""Female""}",16858,1447807
+103,"{""Q0"":""I really don't know""}",5769,622003
+103,"{""Q0"":""26"",""Q1"":""male""}",7203,897535
+104,"{""Q0"":""I learned to take the path that leads to the 48 points""}",45221,760321
+105,"{""Q0"":""I learned I should click the exterior nodes so I know where I want to move the spider.  I am paying the dollar to see what the nodes values are to find the positive 48 node.""}",80950,388170
+105,"{""Q0"":""40"",""Q1"":""Male""}",21521,1041171
+106,"{""Q0"":""I should look at the outer most nodes and look for the +48 and when I find it stop checking them and move to that node.""}",32803,369017
+106,"{""Q0"":""36"",""Q1"":""Male""}",9936,904640
+107,"{""Q0"":""Always click the end point and once you find +48 don't click anymore.  Simply head for the +48""}",33713,350995
+107,"{""Q0"":""43"",""Q1"":""Male""}",13013,894312
+108,"{""Q0"":""I started checking all nodes by default to help maximize score""}",37375,373768
+108,"{""Q0"":""35"",""Q1"":""Female""}",22139,1337248
+109,"{""Q0"":""""}",5723,446898
+109,"{""Q0"":""25"",""Q1"":""Female""}",10022,1194208
+110,"{""Q0"":""all session are different""}",18874,1109348
+110,"{""Q0"":""10"",""Q1"":""MALE""}",12710,1489237
+111,"{""Q0"":""It's better to learn all of the end results to get maximum money""}",16039,303084
+111,"{""Q0"":""35"",""Q1"":""male""}",8526,693545
+112,"{""Q0"":""I learned to use money to see where the money is. What I was doing differently was using money. ""}",30493,255221
+112,"{""Q0"":""23"",""Q1"":""Female""}",8427,706230
+113,"{""Q0"":""I learned to click at the nodes at the ends to find the $48 prize""}",20226,258167
+113,"{""Q0"":""25"",""Q1"":""female""}",5048,741780
+114,"{""Q0"":""I will likely look at the nodes and spend the $1.  I would likely have a lot higher score if I did that first time around.""}",72112,999109
+114,"{""Q0"":""38"",""Q1"":""Male""}",10613,1579554
+115,"{""Q0"":""A negative seems to usually followed by a positive. And I think I do just as well by not using the node inspector.""}",81131,406669
+115,"{""Q0"":""72"",""Q1"":""female""}",19136,793943
+116,"{""Q0"":""The outsides are worth the most or are worth the least. If one side end is 48 I don't not need to check the other as it is the maximum. I still need to check the second and third squares on each path as it may change during the game""}",131221,612310
+116,"{""Q0"":""47"",""Q1"":""male""}",18263,1676759
+118,"{""Q0"":""I have learned that it is somewhat just up to luck. I try and go a different way each time.""}",31434,242879
+118,"{""Q0"":""30"",""Q1"":""Female""}",8681,699997
+119,"{""Q0"":""I learned to click first on the nodes before moving, or I have to wait to move.""}",21226,330836
+119,"{""Q0"":""38"",""Q1"":""female""}",7698,687836
+120,"{""Q0"":""there is no specific pattern to gain more points and the game entirely follows random rules.""}",58657,434545
+120,"{""Q0"":""34"",""Q1"":""male""}",20040,859901
