@@ -1,2 +1,6 @@
 analysis/.ipynb_checkpoints/
 analysis/__pycache__/
+analysis/.figs/
+analysis/new-retention.ipynb
+analysis/new-retention.py
+analysis/roadtrip.ipynb

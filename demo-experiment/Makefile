@@ -11,6 +11,5 @@ watch:
 clean:
 	rm static/json/*
 
-demo:
-	cp templates/exp.html index.html
+upload:
 	rsync -av --delete-after --copy-links . cocosci@cocosci-mcrl.dreamhosters.com:/home/cocosci/cocosci.dreamhosters.com/webexpt/improving-planning
