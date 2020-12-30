@@ -603,7 +603,7 @@ pid,responses,l1,g1,l2,g2,l3,g3
 315,"{""Q0"":""44"",""Q1"":""male""}",,,,,,
 181,"{""Q0"":""Checking end values, game does not always respond to arrows.""}",1,S,,,,
 181,"{""Q0"":""53"",""Q1"":""Female""}",,,,,,
-0,"{""Q0"":""Learned the last dot contained the large rewards so find those and head for them.”}",1,S,,,,
+0,"{""Q0"":""Learned the last dot contained the large rewards so find those and head for them.""}",1,S,,,,
 0,"{""Q0"":""59"",""Q1"":""Male""}",,,,,,
 12,"{""Q0"":""not following the experts""}",10,S,,,,
 12,"{""Q0"":""47"",""Q1"":""male""}",,,,,,

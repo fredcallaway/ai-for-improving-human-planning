@@ -5,7 +5,6 @@ import os
 from datetime import datetime
 
 from utils import *
-import shutil
 
 # ---------- Data wrangling ---------- #
 
@@ -132,149 +131,146 @@ def t_test(x, y):
     print(f'{x.mean():0.1f} vs. {y.mean():0.1f}, t({int(df)}) = {t:.2f}, {pval(p)}')
 
 # ---------- Saving results ---------- #
-class TeX(object):
-    """Saves tex files."""
-    def __init__(self, path='stats', clear=False):
+
+
+
+class Tex:
+    chi2 = r"$\chi^2({df:.0f})={chisq:.2f},\ {signif}$"
+
+class Variables():
+    """Saves variables for use in external documents."""
+    def __init__(self, path='.'):
+        # os.makedirs(path, exist_ok=True)
         self.path = path
-        if clear:
-            shutil.rmtree(path)
+        self.csv_file = os.path.join(path, 'variables.csv')
+        self.sed_file = os.path.join(path, 'variables.sed')
+        self.tex_file = os.path.join(path, 'variables.tex')
+        self.read()
+
+    def read(self):
+        try:
+            self.series = pd.Series.from_csv(self.csv_file)
+        except (OSError, pd.io.common.EmptyDataError):
+            self.reset()
+
+    def reset(self):
+        self.series = pd.Series()
+        self.save()
+
+    def write(self, key, val):
+        self.read()
+        self.series[key] = val
+        self.series.to_csv(self.csv_file)
+        print('{} = {}'.format(key, val))
+
+    def save(self):
+        self.series.to_csv(self.csv_file)
+        with open(self.sed_file, 'w+') as f:
+            for key, val in self.series.items():
+                val = str(val).replace('\\', '\\\\').replace('&', '\&')
+                f.write('s/`{}`/{}/g'.format(key, val) + '\n')
+
+        with open(self.tex_file, 'w+') as f:
+            for key, val in self.series.items():
+                key = to_camel_case(key)
+                f.write(r'\newcommand{\%s}{%s}' % (key, val) + '\n')
+
+
+    def save_analysis(self, table, tex, name='', idx='{index}', display_tex=True):
+        if display_tex:
+            from IPython.display import Latex, display
+
+        for i, row in table.iterrows():
+            row['index'] = i
+            n = name
+            if idx is not None:
+                n += '_' + (idx(row) if callable(idx) else idx)
+            n = reformat_name(n.format_map(row)).upper()
+
+            t = tex(row) if callable(tex) else tex
+            t = t.format_map(row)
+
+            self.write(n, t)
+            if display_tex:
+                display(Latex(t))
+
+        self.save()
+
+
+    def write_lm(self, model, var, name):
+        beta = np.round(model.params[var], 2)
+        se = np.round(model.bse[var], 2)
+        p = model.pvalues[var]
+        p_desc = pval(p)
+
+        self.write_var(
+            '{}_RESULT'.format(name),
+            r'$\\beta = %s,\\ \\text{SE} = %s,\\ %s$' % (beta, se, p_desc)
+        )
+
+def get_rtable(results, p_col=None):
+    tbl = ri2py(results)
+    tbl = tbl.rename(columns=reformat_name)
+    if p_col:
+        tbl['signif'] = tbl[reformat_name(p_col)].apply(pval)
+    return tbl
+
+
+class Results(object):
+    """Writes results to files"""
+    def __init__(self, path):
+        self.path = path
         os.makedirs(path, exist_ok=True)
 
+    def file(self, name):
+        # mode = 'a+' if append else 'w+'
+        file = os.path.join(self.path, name + '.txt')
+        with open(file, 'w+') as f:
+            timestamp = datetime.now().strftime('Created on %m/%d/%y at %H:%M:%S\n\n')
+            f.write(timestamp)
+        return open(file, 'a')
 
-    def write(self, name, tex):
-        file = f"{self.path}/{name}.tex"
-        with open(file, "w+") as f:
-            f.write(str(tex) + r"\unskip")
-        print(f'wrote "{tex}" to "{file}"')
-      
+
+
 # ---------- Plotting ---------- #
 
+import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style('white')
 sns.set_context('notebook', font_scale=1.4)
 sns.set_palette('deep', color_codes=True)
 
+
+
 class Figures(object):
     """Plots and saves figures."""
-    def __init__(self, path='figs/', tmp_path='.figs', dpi=300):
+    def __init__(self, path='figs/', formats=['eps']):
         self.path = path
-        self.tmp_path = tmp_path
-        self.dpi = dpi
-
+        self.formats = formats
         os.makedirs(path, exist_ok=True)
-        os.makedirs(tmp_path, exist_ok=True)
 
-    def open_last(self):
-        os.system(f'open {self.tmp_path}/last.png')
 
-    def browse(self):
-        os.system(f'open {self.path}')
+    def savefig(self, name):
+        name = name.lower()
+        for fmt in self.formats:
+            path = os.path.join(self.path, name + '.' + fmt)
+            print(path)
+            plt.savefig(path, bbox_inches='tight')
 
-    def show(self, name='tmp', tight=True):
-        try:
-            if tight:
-                plt.tight_layout()
-
-            # Write to history
-            dt = datetime.now().strftime('%m-%d-%H-%M-%S')
-            p = f'{dt}-{name}.png'
-            tmp = f'{self.tmp_path}/{p}'
-            plt.savefig(tmp, dpi=self.dpi, bbox_inches='tight')
-
-            # Copy to temporary "last plot" file
-            os.system(f'rm -f {self.tmp_path}/last.png')
-            os.symlink(p, f'{self.tmp_path}/last.png')
-
-            if name != 'tmp':
-                name = name.lower()
-                path = f'{self.path}/{name}.png'
-                os.system(f'cp {tmp} {path}')
-                print(f"Wrote {path}")
-        finally:
-            plt.close('all')
-
-    def plot(self, save=True, **kwargs):
+    def plot(self, **kwargs1):
         """Decorator that calls a plotting function and saves the result."""
         def decorator(func):
-            params = [v for v in kwargs.values() if v is not None]
-            param_str = '_' + str_join(params).rstrip('_') if params else ''
-            name = func.__name__ + param_str
-            if name.startswith('plot_'):
-                name = name[len('plot_'):].lower()
-            try:
-                plt.figure()
-                func(**kwargs)
-                self.show(name)
-            finally:
-                plt.close('all')
-            return func
+            def wrapped(*args, **kwargs):
+                kwargs.update(kwargs1)
+                params = [v for v in kwargs1.values() if v is not None]
+                param_str = '_' + str_join(params).rstrip('_') if params else ''
+                name = func.__name__ + param_str
+                if name.startswith('plot_'):
+                    name = name[len('plot_'):]
+                func(*args, **kwargs)
+                self.savefig(name)
+            wrapped()
+            return wrapped
+
         return decorator
-
-
-
-sns.set_style('whitegrid')
-blue, orange = sns.color_palette('tab10')[:2]
-gray = (0.5,)*3
-red = (1, 0.2, 0.3)
-yellow = (0.9, 0.85, 0)
-
-palette = {
-    'none': gray,
-    'action': blue,
-    'meta': orange,
-    'info_only': red,
-    'reward_only': yellow,
-    'both': orange,
-}
-
-palette = {
-    'none': gray,
-    'action': blue,
-    'meta': orange,
-    'info_only': red,
-    'reward_only': yellow,
-    'both': orange,
-}
-
-nice_names = {
-    'meta': 'Metacognitive',
-    'action': 'Action',
-    'none': 'None',
-    'feedback': 'Feedback',
-    'info_only': 'Information\nOnly',
-    'reward_only': 'Delay Penalty\nOnly',
-    'both': 'Information &\nDelay Penalty',
-    'score': 'Average Score',
-    'backward': 'Proportion Planning Backward',
-    'bonus': 'Bonus Amount ($)',
-    'stage2_n_click': 'Average # Clicks in Transfer'
-}
-
-def reformat_labels(ax=None):
-    ax = ax or plt.gca()
-    labels = [t.get_text() for t in ax.get_xticklabels()]
-    new_labels = [nice_names.get(lab, lab) for lab in labels]
-    ax.set_xticklabels(new_labels)
-    
-def reformat_legend(ax=None):
-    if ax is None:
-        ax = plt.gca()
-    handles, labels = ax.get_legend_handles_labels()
-    ax.legend(handles=handles, labels=[nice_names.get(l, l).replace('\n', ' ') 
-                                       for l in labels])
-    
-def plot_block_changes():
-    block_changes = mdf.loc[1].block.apply(Labeler()).diff().reset_index().query('block == 1').index
-    for t in block_changes:
-        plt.axvline(t-0.5, c='k', ls='--')
-
-# from datetime import datetime
-# # os.makedirs(f'stats/{EXPERIMENT}/', exist_ok=True)
-# def result_file(name, ext='tex'):
-#     file = f'stats/{EXPERIMENT}-{name}.{ext}'
-# #     with open(file, 'w+') as f:
-# #         timestamp = datetime.now().strftime('Created on %m/%d/%y at %H:%M:%S\n\n')
-# #         f.write(timestamp)
-#     return file
-

@@ -93,7 +93,6 @@ write_tex('mean-bonus', f'\\${bonus.loc[pdf.index].mean():.2f}')
 N.sum()
 # %% ==================== TRANSFER PERFORMANCE ====================
 
-figs.browse()
 def plot_transfer(outcome):
     sns.swarmplot('feedback', outcome, data=pdf, palette=palette, alpha=0.5, order=fb_order)
     sns.pointplot('feedback', outcome, data=pdf, palette=palette, order=fb_order, 
@@ -107,7 +106,6 @@ figure(outcome='bonus')(plot_transfer)
 figure(outcome='stage2_n_click')(plot_transfer)
 
 # %% ==================== BACKWARD PLANNING ====================
-figs.browse()
 
 leaves = {3,4,7,8,11,12}
 
