@@ -1,111 +1,335 @@
-pid,bonus,completed,delay_window,feedback,stage,startTime,variance,completed_1
-0,3.77,True,12,meta,1,Wed Apr 17 2019 08:42:13 GMT-0700 (Pacific Daylight Time),2_4_24,True
-1,3.76,True,12,none,1,Wed Apr 17 2019 10:53:29 GMT-0500 (Central Daylight Time),2_4_24,True
-2,3.98,True,12,meta,1,Wed Apr 17 2019 12:29:19 GMT-0400 (Eastern Daylight Time),2_4_24,True
-3,4.1,True,12,none,1,Wed Apr 17 2019 08:46:55 GMT-0700 (Pacific Daylight Time),2_4_24,True
-4,3.75,True,12,meta,1,Wed Apr 17 2019 11:29:01 GMT-0500 (Central Daylight Time),2_4_24,True
-5,3.51,True,12,none,1,Wed Apr 17 2019 11:41:39 GMT-0400 (Eastern Daylight Time),2_4_24,True
-6,,False,12,meta,1,Wed Apr 17 2019 12:26:08 GMT-0500 (Central Daylight Time),2_4_24,False
-7,3.95,True,12,meta,1,Wed Apr 17 2019 13:51:34 GMT-0400 (Eastern Daylight Time),2_4_24,True
-8,3.76,True,12,none,1,Wed Apr 17 2019 12:28:47 GMT-0400 (Eastern Daylight Time),2_4_24,True
-9,2.03,True,12,none,1,Wed Apr 17 2019 12:02:03 GMT-0500 (Central Daylight Time),2_4_24,True
-10,2.93,True,12,none,1,Wed Apr 17 2019 12:29:03 GMT-0400 (Eastern Daylight Time),2_4_24,True
-11,1.87,True,12,none,1,Wed Apr 17 2019 11:41:45 GMT-0400 (Eastern Daylight Time),2_4_24,True
-12,3.78,True,12,none,1,Wed Apr 17 2019 12:33:11 GMT-0400 (Eastern Daylight Time),2_4_24,True
-13,3.66,True,12,none,1,Wed Apr 17 2019 11:36:49 GMT-0500 (Central Daylight Time),2_4_24,True
-14,3.92,True,12,meta,1,Wed Apr 17 2019 11:41:41 GMT-0400 (Eastern Daylight Time),2_4_24,True
-15,3.28,True,12,none,1,Wed Apr 17 2019 11:28:54 GMT-0500 (Central Daylight Time),2_4_24,True
-16,3.42,True,12,meta,1,Wed Apr 17 2019 12:31:00 GMT-0400 (Eastern Daylight Time),2_4_24,True
-17,3.67,True,12,meta,1,Wed Apr 17 2019 09:39:50 GMT-0700 (Pacific Daylight Time),2_4_24,True
-18,3.98,True,12,meta,1,Wed Apr 17 2019 11:53:31 GMT-0400 (Eastern Daylight Time),2_4_24,True
-19,3.84,True,12,meta,1,Wed Apr 17 2019 11:39:58 GMT-0500 (Central Daylight Time),2_4_24,True
-20,3.87,True,12,meta,1,Wed Apr 17 2019 12:30:13 GMT-0400 (Eastern Daylight Time),2_4_24,True
-21,,False,12,meta,1,Wed Apr 17 2019 22:10:52 GMT+0530 (India Standard Time),2_4_24,True
-22,,False,12,none,1,Wed Apr 17 2019 12:55:48 GMT-0400 (Eastern Daylight Time),2_4_24,True
-23,,False,12,meta,1,Wed Apr 17 2019 12:50:19 GMT-0400 (Eastern Daylight Time),2_4_24,False
-24,3.87,True,12,none,1,Wed Apr 17 2019 11:29:17 GMT-0500 (Central Daylight Time),2_4_24,True
-25,3.51,True,12,meta,1,Wed Apr 17 2019 12:28:23 GMT-0400 (Eastern Daylight Time),2_4_24,True
-26,3.81,True,12,none,1,Wed Apr 17 2019 11:37:11 GMT-0500 (Central Daylight Time),2_4_24,True
-27,3.51,True,12,none,1,Wed Apr 17 2019 10:28:16 GMT-0600 (Mountain Daylight Time),2_4_24,True
-28,,False,12,meta,1,Wed Apr 17 2019 08:45:50 GMT-0700 (Pacific Daylight Time),2_4_24,True
-29,,False,12,none,1,Wed Apr 17 2019 21:21:06 GMT+0530 (India Standard Time),2_4_24,True
-30,3.83,True,12,none,1,Wed Apr 17 2019 12:42:34 GMT-0400 (Eastern Daylight Time),2_4_24,True
-31,3.92,True,12,none,1,Wed Apr 17 2019 10:44:16 GMT-0500 (Central Daylight Time),2_4_24,True
-32,3.07,True,12,none,1,Wed Apr 17 2019 12:46:20 GMT-0400 (Eastern Daylight Time),2_4_24,True
-33,3.48,True,12,meta,1,Wed Apr 17 2019 08:43:04 GMT-0700 (Pacific Daylight Time),2_4_24,True
-34,4.1,True,12,none,1,Wed Apr 17 2019 11:56:55 GMT-0400 (Eastern Daylight Time),2_4_24,True
-35,2.4,True,12,meta,1,Wed Apr 17 2019 11:48:22 GMT-0400 (Eastern Daylight Time),2_4_24,True
-36,3.59,True,12,meta,1,Wed Apr 17 2019 12:28:22 GMT-0400 (Eastern Daylight Time),2_4_24,True
-37,,False,12,none,1,Wed Apr 17 2019 12:40:58 GMT-0400 (Eastern Daylight Time),2_4_24,True
-38,2.98,True,12,meta,1,Wed Apr 17 2019 11:04:42 GMT-0500 (Central Daylight Time),2_4_24,True
-39,3.63,True,12,meta,1,Wed Apr 17 2019 12:28:08 GMT-0400 (Eastern Daylight Time),2_4_24,True
-40,4.07,True,12,none,1,Wed Apr 17 2019 13:08:41 GMT-0400 (Eastern Daylight Time),2_4_24,True
-41,3.38,True,12,none,1,Wed Apr 17 2019 10:29:42 GMT-0600 (Mountain Daylight Time),2_4_24,True
-42,3.91,True,12,meta,1,Wed Apr 17 2019 11:28:29 GMT-0500 (Central Daylight Time),2_4_24,True
-43,2.57,True,12,meta,1,Wed Apr 17 2019 12:00:17 GMT-0400 (Atlantic Standard Time),2_4_24,True
-44,3.69,True,12,none,1,Wed Apr 17 2019 11:29:31 GMT-0500 (Central Daylight Time),2_4_24,True
-45,3.94,True,12,meta,1,Wed Apr 17 2019 11:41:35 GMT-0400 (Eastern Daylight Time),2_4_24,True
-46,3.71,True,12,meta,1,Wed Apr 17 2019 10:41:47 GMT-0500 (Central Daylight Time),2_4_24,True
-47,,False,12,none,1,Wed Apr 17 2019 10:53:37 GMT-0500 (Central Daylight Time),2_4_24,True
-48,,False,12,none,1,Wed Apr 17 2019 12:29:10 GMT-0400 (Eastern Daylight Time),2_4_24,True
-49,3.74,True,12,meta,1,Wed Apr 17 2019 11:44:14 GMT-0400 (Eastern Daylight Time),2_4_24,True
-50,3.95,True,12,none,1,Wed Apr 17 2019 12:01:10 GMT-0400 (Eastern Daylight Time),2_4_24,True
-51,,False,12,none,1,Wed Apr 17 2019 11:28:20 GMT-0500 (Central Daylight Time),2_4_24,False
-52,3.57,True,12,meta,1,Wed Apr 17 2019 12:47:36 GMT-0400 (Eastern Daylight Time),2_4_24,True
-53,2.17,True,12,meta,1,Wed Apr 17 2019 12:40:56 GMT-0500 (Central Daylight Time),2_4_24,True
-54,3.84,True,12,meta,1,Wed Apr 17 2019 11:28:58 GMT-0500 (Central Daylight Time),2_4_24,True
-55,4.2,True,12,meta,1,Wed Apr 17 2019 12:29:28 GMT-0400 (Eastern Daylight Time),2_4_24,True
-56,3.7,True,12,none,1,Wed Apr 17 2019 12:27:59 GMT-0400 (Eastern Daylight Time),2_4_24,True
-57,3.56,True,12,meta,1,Wed Apr 17 2019 10:38:40 GMT-0600 (Mountain Daylight Time),2_4_24,True
-58,2.38,True,12,meta,1,Wed Apr 17 2019 11:28:27 GMT-0500 (Central Daylight Time),2_4_24,True
-59,3.97,True,12,meta,1,Wed Apr 17 2019 11:28:53 GMT-0500 (Central Daylight Time),2_4_24,True
-60,3.59,True,12,none,1,Wed Apr 17 2019 09:48:51 GMT-0700 (Pacific Daylight Time),2_4_24,True
-61,,False,12,meta,1,Wed Apr 17 2019 08:54:12 GMT-0700 (Pacific Daylight Time),2_4_24,True
-62,3.99,True,12,meta,1,Wed Apr 17 2019 10:41:16 GMT-0500 (Central Daylight Time),2_4_24,True
-63,3.72,True,12,meta,1,Wed Apr 17 2019 11:36:46 GMT-0500 (Central Daylight Time),2_4_24,True
-64,3.65,True,12,none,1,Wed Apr 17 2019 11:30:10 GMT-0500 (Central Daylight Time),2_4_24,True
-65,,False,12,none,1,Wed Apr 17 2019 10:30:01 GMT-0600 (Mountain Daylight Time),2_4_24,True
-66,3.44,True,12,none,1,Wed Apr 17 2019 12:29:11 GMT-0400 (Eastern Daylight Time),2_4_24,True
-67,3.36,True,12,none,1,Wed Apr 17 2019 12:51:32 GMT-0400 (Eastern Daylight Time),2_4_24,True
-68,3.29,True,12,none,1,Wed Apr 17 2019 10:38:09 GMT-0600 (Mountain Daylight Time),2_4_24,True
-69,2.86,True,12,none,1,Wed Apr 17 2019 12:28:05 GMT-0400 (Eastern Daylight Time),2_4_24,True
-70,,False,12,meta,1,Wed Apr 17 2019 20:02:01 GMT+0300 (East Africa Time),2_4_24,True
-71,3.81,True,12,meta,1,Wed Apr 17 2019 12:48:55 GMT-0500 (Central Daylight Time),2_4_24,True
-72,3.73,True,12,meta,1,Wed Apr 17 2019 11:02:23 GMT-0500 (Central Daylight Time),2_4_24,True
-73,3.98,True,12,none,1,Wed Apr 17 2019 13:04:22 GMT-0400 (Eastern Daylight Time),2_4_24,True
-74,3.29,True,12,none,1,Wed Apr 17 2019 11:27:50 GMT-0500 (Central Daylight Time),2_4_24,True
-75,3.74,True,12,meta,1,Wed Apr 17 2019 17:59:12 GMT+0200 (Central European Summer Time),2_4_24,True
-76,,False,12,meta,1,Wed Apr 17 2019 11:28:40 GMT-0500 (Central Daylight Time),2_4_24,False
-77,3.71,True,12,meta,1,Wed Apr 17 2019 12:28:08 GMT-0400 (Eastern Daylight Time),2_4_24,True
-78,3.62,True,12,none,1,Wed Apr 17 2019 12:29:13 GMT-0400 (Eastern Daylight Time),2_4_24,True
-79,3.6,True,12,none,1,Wed Apr 17 2019 09:52:39 GMT-0700 (Pacific Daylight Time),2_4_24,True
-80,,False,12,meta,1,Wed Apr 17 2019 11:32:21 GMT-0500 (Central Daylight Time),2_4_24,False
-81,3.83,True,12,none,1,Wed Apr 17 2019 10:45:24 GMT-0500 (Central Daylight Time),2_4_24,True
-82,3.62,True,12,meta,1,Wed Apr 17 2019 08:41:29 GMT-0700 (Pacific Daylight Time),2_4_24,True
-83,2.11,True,12,none,1,Wed Apr 17 2019 11:29:20 GMT-0500 (Central Daylight Time),2_4_24,True
-84,4.14,True,12,meta,1,Wed Apr 17 2019 12:28:40 GMT-0400 (Eastern Daylight Time),2_4_24,True
-85,3.66,True,12,meta,1,Wed Apr 17 2019 11:29:21 GMT-0500 (Central Daylight Time),2_4_24,True
-86,4.0,True,12,meta,1,Wed Apr 17 2019 12:29:13 GMT-0400 (Eastern Daylight Time),2_4_24,True
-87,,False,12,meta,1,Wed Apr 17 2019 12:28:27 GMT-0400 (EDT),2_4_24,False
-88,3.64,True,12,meta,1,Wed Apr 17 2019 12:29:11 GMT-0400 (Eastern Daylight Time),2_4_24,True
-89,3.85,True,12,meta,1,Wed Apr 17 2019 12:29:03 GMT-0400 (Eastern Daylight Time),2_4_24,True
-90,,False,12,none,1,Wed Apr 17 2019 10:41:26 GMT-0500 (Central Daylight Time),2_4_24,True
-91,2.52,True,12,none,1,Wed Apr 17 2019 11:35:15 GMT-0500 (Central Daylight Time),2_4_24,True
-92,3.43,True,12,none,1,Wed Apr 17 2019 10:41:35 GMT-0500 (Central Daylight Time),2_4_24,True
-93,2.24,True,12,none,1,Wed Apr 17 2019 11:41:38 GMT-0400 (Eastern Daylight Time),2_4_24,True
-94,3.75,True,12,meta,1,Wed Apr 17 2019 12:29:16 GMT-0400 (Eastern Daylight Time),2_4_24,True
-95,3.52,True,12,none,1,Wed Apr 17 2019 12:29:34 GMT-0400 (Eastern Daylight Time),2_4_24,True
-96,2.33,True,12,none,1,Wed Apr 17 2019 12:27:11 GMT-0500 (Central Daylight Time),2_4_24,True
-97,3.92,True,12,meta,1,Wed Apr 17 2019 11:28:00 GMT-0500 (Central Daylight Time),2_4_24,True
-98,2.48,True,12,meta,1,Wed Apr 17 2019 08:51:53 GMT-0700 (Pacific Daylight Time),2_4_24,True
-99,4.15,True,12,none,1,Wed Apr 17 2019 11:27:44 GMT-0500 (Central Daylight Time),2_4_24,True
-100,3.51,True,12,none,1,Wed Apr 17 2019 11:04:28 GMT-0500 (Central Daylight Time),2_4_24,True
-101,4.08,True,12,meta,1,Wed Apr 17 2019 12:51:41 GMT-0400 (Eastern Daylight Time),2_4_24,True
-102,,False,12,meta,1,Wed Apr 17 2019 11:41:33 GMT-0400 (Eastern Daylight Time),2_4_24,False
-103,2.33,True,12,none,1,Wed Apr 17 2019 10:41:26 GMT-0500 (Central Daylight Time),2_4_24,True
-104,3.36,True,12,none,1,Wed Apr 17 2019 08:41:45 GMT-0700 (Pacific Daylight Time),2_4_24,True
-105,4.28,True,12,meta,1,Wed Apr 17 2019 13:52:01 GMT-0400 (Eastern Daylight Time),2_4_24,True
-106,3.71,True,12,none,1,Wed Apr 17 2019 12:28:33 GMT-0400 (Eastern Daylight Time),2_4_24,True
-107,,False,12,none,1,Wed Apr 17 2019 11:29:25 GMT-0500 (Central Daylight Time),2_4_24,True
-108,4.11,True,12,meta,1,Wed Apr 17 2019 08:41:53 GMT-0700 (Pacific Daylight Time),2_4_24,True
-109,3.07,True,12,none,1,Wed Apr 17 2019 11:28:07 GMT-0500 (Central Daylight Time),2_4_24,True
+wid,startTime,variance,feedback,delay_window,stage,bonus,completed,completed_1,previously_participated,n_quiz,instruct_time,total_time
+wc2b5152,Mon Feb 01 2021 13:45:13 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.56,True,True,Yes,1.0,[65302],9.180483333333333
+wb0d67f3,Mon Feb 01 2021 12:49:31 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.51,True,True,No,1.0,[43393],13.77265
+w9b6356e,Mon Feb 01 2021 13:26:30 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.59,True,True,No,2.0,"[76358, 32453]",17.837183333333332
+w35cdbbe,Mon Feb 01 2021 12:40:07 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,True,,,,
+w07b3ce8,Mon Feb 01 2021 13:29:45 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,False,,2.0,"[33927, 29437]",
+w2a3f3ed,Mon Feb 01 2021 12:23:15 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+w5d62ef9,Mon Feb 01 2021 13:01:53 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w54c02b5,Mon Feb 01 2021 12:29:56 GMT-0600 (CST),2_4_24,none,12,1,0.52,True,True,No,1.0,[87474],11.54225
+w4d3ace0,Mon Feb 01 2021 13:29:41 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.64,True,True,No,1.0,[117638],12.9609
+w2a77652,Mon Feb 01 2021 13:12:10 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.53,True,True,No,2.0,"[69627, 22161]",16.51165
+w5697380,Mon Feb 01 2021 13:35:02 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.2,True,True,No,1.0,[104754],12.860833333333334
+w3cf0b45,Mon Feb 01 2021 11:45:24 GMT-0700 (Mountain Standard Time),2_4_24,meta,12,1,0.65,True,True,No,1.0,[53767],13.408383333333333
+wcd17cba,Mon Feb 01 2021 13:30:05 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.08,True,True,Yes,1.0,[12672],17.991616666666665
+webe69b1,Mon Feb 01 2021 13:29:41 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.62,True,True,No,1.0,[90846],15.653933333333333
+wb0d8750,Mon Feb 01 2021 13:18:22 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.45,True,True,Not sure,1.0,[170565],16.062933333333334
+w76dd4ee,Mon Feb 01 2021 10:38:52 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,,False,True,,,,
+w959beb0,Mon Feb 01 2021 12:31:16 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.53,True,True,No,1.0,[81050],15.6376
+wadc9d05,Mon Feb 01 2021 12:56:23 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.52,True,True,No,1.0,[123584],17.7291
+w76e01de,Mon Feb 01 2021 13:24:56 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.27,True,True,No,3.0,"[106640, 7263, 14293]",12.2533
+w7450971,Mon Feb 01 2021 10:27:43 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,,False,True,,,,
+w218e631,Mon Feb 01 2021 11:55:24 GMT-0500 (EST),2_4_24,action,12,1,,False,False,,1.0,[111798],
+w01669a7,Mon Feb 01 2021 13:36:53 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.35,True,True,No,2.0,"[64864, 6571]",14.543066666666666
+w3bd5801,Mon Feb 01 2021 10:42:40 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.68,True,True,No,1.0,[102174],14.21585
+w9b1fd96,Mon Feb 01 2021 13:12:24 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.0,True,True,No,1.0,[34951],12.4543
+wcc818a2,Mon Feb 01 2021 10:20:19 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.72,True,True,No,1.0,[55545],10.9111
+w6f2000f,Mon Feb 01 2021 12:12:02 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.62,True,True,No,2.0,"[105616, 22717]",24.629483333333333
+w8a8ab24,Mon Feb 01 2021 13:32:18 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.56,True,True,No,1.0,[86745],12.299083333333334
+w4a8429b,Mon Feb 01 2021 09:49:26 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.51,True,True,No,1.0,[75806],11.35945
+w121b9c1,Mon Feb 01 2021 13:25:44 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.4,True,True,No,1.0,[53318],10.838283333333333
+w3861fef,Mon Feb 01 2021 13:38:01 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.74,True,True,No,1.0,[62577],10.94715
+w9089f6a,Mon Feb 01 2021 09:57:45 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.74,True,True,No,2.0,"[48964, 17705]",12.5903
+w42f0835,Mon Feb 01 2021 14:27:11 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.48,True,True,No,1.0,[70581],11.2844
+w514f441,Mon Feb 01 2021 12:32:14 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,True,,,,
+w04d56d7,Mon Feb 01 2021 13:34:13 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.69,True,True,No,1.0,[328694],21.1825
+wb2c69c8,Mon Feb 01 2021 11:56:31 GMT-0600 (CST),2_4_24,none,12,1,0.2,True,True,No,2.0,"[57380, 19895]",10.4318
+w8af2d3c,Mon Feb 01 2021 10:37:54 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.67,True,True,No,1.0,[65263],12.512333333333334
+w4cc6f0b,Mon Feb 01 2021 13:29:43 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.57,True,True,No,1.0,[59469],20.385
+w07394b7,Mon Feb 01 2021 13:36:47 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.44,True,True,No,1.0,[106421],23.52713333333333
+w672b9ce,Mon Feb 01 2021 13:37:34 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.65,True,True,No,1.0,[123451],13.090766666666667
+w5957bc7,Mon Feb 01 2021 11:58:46 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.62,True,True,No,1.0,[83366],20.099666666666668
+wa6ad189,Mon Feb 01 2021 10:00:55 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,False,,,,
+w3b97ab5,Mon Feb 01 2021 14:31:01 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.48,True,True,No,1.0,[46422],9.108216666666667
+wf5bf1cd,Mon Feb 01 2021 13:21:40 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,False,,2.0,"[97979, 33738]",
+wc35e71d,Mon Feb 01 2021 12:22:48 GMT-0600 (CST),2_4_24,meta,12,1,,False,False,,2.0,"[111244, 69853]",
+w85a5a53,Mon Feb 01 2021 12:27:20 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.51,True,True,No,2.0,"[291055, 23727]",16.301066666666667
+w08affb2,Mon Feb 01 2021 11:48:33 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,True,,,,
+w378dfa2,Mon Feb 01 2021 13:20:48 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.16,True,True,No,2.0,"[82956, 54219]",17.254166666666666
+w3a7d863,Mon Feb 01 2021 12:33:10 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.53,True,True,No,1.0,[241052],17.067833333333333
+wa029bc1,Mon Feb 01 2021 12:36:35 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.62,True,True,No,1.0,[71759],12.578083333333334
+w8d52ecb,Mon Feb 01 2021 12:45:00 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.74,True,True,Yes,1.0,[17695],12.025566666666666
+w6304f4a,Mon Feb 01 2021 10:16:24 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.46,True,True,No,1.0,[54922],11.158183333333334
+we404ecf,Mon Feb 01 2021 12:24:47 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.42,True,True,No,1.0,[63114],11.774916666666666
+w1ea100f,Mon Feb 01 2021 12:38:39 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,True,,,,
+wab416d7,Mon Feb 01 2021 12:31:16 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.2,True,True,No,2.0,"[82759, 26835]",18.328733333333332
+w1977a44,Mon Feb 01 2021 13:10:23 GMT-0500 (EST),2_4_24,none,12,1,,False,True,,,,
+w19cf326,Mon Feb 01 2021 19:43:24 GMT+0200 (IST),2_4_24,none,12,1,,False,False,,1.0,[85630],
+w2d09e07,Mon Feb 01 2021 12:32:06 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.11,True,True,No,1.0,[70496],9.966033333333334
+w42f61b8,Mon Feb 01 2021 13:13:22 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+w021d4ac,Mon Feb 01 2021 12:45:14 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,,False,False,,,,
+w8883c2c,Mon Feb 01 2021 11:35:27 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,0.47,True,True,No,1.0,[233542],26.579933333333333
+w338a3d2,Mon Feb 01 2021 13:44:08 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.51,True,True,No,2.0,"[51696, 10953]",13.704116666666666
+wb0048d6,Mon Feb 01 2021 13:06:02 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.7,True,True,No,1.0,[55949],13.09525
+w6942e17,Mon Feb 01 2021 13:05:58 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+w87647aa,Mon Feb 01 2021 13:29:39 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.74,True,True,Not sure,1.0,[112496],16.441766666666666
+w27b8993,Mon Feb 01 2021 11:20:59 GMT-0700 (Mountain Standard Time),2_4_24,action,12,1,0.58,True,True,No,1.0,[39350],11.06015
+wd3fa27d,Mon Feb 01 2021 13:40:06 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.66,True,True,No,1.0,[89275],13.825716666666667
+w16958b6,Mon Feb 01 2021 12:19:06 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.85,True,True,No,1.0,[80741],14.239416666666667
+wbec4a17,Mon Feb 01 2021 13:40:22 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.73,True,True,No,1.0,[71679],11.4077
+wcdbc16c,Mon Feb 01 2021 10:37:10 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,,False,True,,,,
+w04e39a4,Mon Feb 01 2021 10:29:30 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.19,True,True,No,1.0,[59090],12.494383333333333
+wf1a1ab0,Mon Feb 01 2021 13:32:22 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+we144403,Mon Feb 01 2021 13:25:10 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.26,True,True,No,1.0,[120854],13.50695
+w3b7d035,Mon Feb 01 2021 13:45:05 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,True,,,,
+w8849c6d,Mon Feb 01 2021 11:32:48 GMT-0700 (Mountain Standard Time),2_4_24,meta,12,1,0.66,True,True,No,1.0,[83177],15.21925
+w81d3c41,Mon Feb 01 2021 10:34:41 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.62,True,True,No,2.0,"[20813, 15736]",13.934816666666666
+w9966dae,Mon Feb 01 2021 11:59:22 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.54,True,True,Yes,1.0,[76639],22.24525
+w6bbe301,Mon Feb 01 2021 10:49:34 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,False,,2.0,"[113163, 7997]",
+w4fdf442,Mon Feb 01 2021 13:46:03 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.28,True,True,No,1.0,[61549],15.1351
+w1620c80,Mon Feb 01 2021 12:42:51 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.66,True,True,No,2.0,"[60594, 27589]",16.545266666666667
+wa589611,Mon Feb 01 2021 12:34:55 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[71868],26.93626666666667
+wdb29b3e,Mon Feb 01 2021 13:38:31 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.51,True,True,No,1.0,[143216],23.682833333333335
+w0604ccd,Mon Feb 01 2021 12:55:59 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.58,True,True,No,1.0,[69578],35.77386666666666
+wa7fe7b9,Mon Feb 01 2021 12:07:08 GMT-0600 (hora est&#225;ndar central),2_4_24,meta,12,1,0.64,True,True,No,1.0,[34249],13.28735
+wada7d0d,Mon Feb 01 2021 13:12:35 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.7,True,True,No,1.0,[51598],14.895233333333334
+w211434f,Mon Feb 01 2021 12:31:35 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,,False,False,,1.0,[135730],
+w25f6b80,Mon Feb 01 2021 13:58:56 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[173582],20.995166666666666
+w5e37512,Mon Feb 01 2021 13:32:25 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.03,True,True,No,3.0,"[76583, 65640, 89116]",19.85445
+w5bc917d,Mon Feb 01 2021 14:16:07 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.63,True,True,No,1.0,[90795],15.555716666666667
+w6ab5ed9,Mon Feb 01 2021 12:39:49 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.59,True,True,No,1.0,[137653],18.803433333333334
+w69fa660,Mon Feb 01 2021 11:42:38 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,True,,,,
+wf205d3b,Mon Feb 01 2021 14:02:37 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w595e5e4,Mon Feb 01 2021 13:36:24 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.64,True,True,No,1.0,[73365],10.691133333333333
+wa882f45,Mon Feb 01 2021 13:10:46 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.51,True,True,No,2.0,"[62937, 23675]",14.165966666666666
+w43ee5a2,Mon Feb 01 2021 13:43:14 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.2,True,True,No,1.0,[102535],11.0293
+w467a8ae,Mon Feb 01 2021 11:44:38 GMT-0700 (MST),2_4_24,action,12,1,,False,True,,,,
+wf76281c,Mon Feb 01 2021 13:40:21 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.01,True,True,No,2.0,"[24960, 336802]",20.6357
+w8bff895,Mon Feb 01 2021 12:47:00 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,False,,1.0,[129387],
+w1a640b0,Mon Feb 01 2021 18:35:47 GMT+0000 (Hora padr&#227;o da Europa Ocidental),2_4_24,action,12,1,0.23,True,True,No,1.0,[61306],13.327966666666667
+w7d84947,Mon Feb 01 2021 11:27:40 GMT-0600 (CST),2_4_24,meta,12,1,,False,True,,,,
+we313ea7,Mon Feb 01 2021 10:30:05 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,False,,,,
+wadceaf5,Mon Feb 01 2021 12:39:50 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.71,True,True,No,1.0,[122447],15.426283333333334
+wb458daa,Mon Feb 01 2021 14:16:59 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,False,,,,
+w32e624f,Mon Feb 01 2021 13:22:01 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.09,True,True,No,1.0,[66514],9.991666666666667
+w1bcf0d4,Mon Feb 01 2021 12:37:49 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.66,True,True,No,1.0,[108148],13.824183333333334
+w9993948,Mon Feb 01 2021 13:41:31 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.07,True,True,No,1.0,[87391],19.559833333333334
+w6982f85,Mon Feb 01 2021 13:32:01 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,False,,3.0,"[106392, 187002, 14032]",
+wfaaa4c5,Mon Feb 01 2021 11:38:18 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.75,True,True,No,1.0,[112951],22.1312
+w10b0762,Mon Feb 01 2021 13:52:59 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.06,True,True,No,2.0,"[480508, 47053]",33.44555
+we233074,Mon Feb 01 2021 12:39:06 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.41,True,True,No,1.0,[70292],15.065416666666666
+w9a87a96,Mon Feb 01 2021 12:18:32 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.01,True,True,No,1.0,[70833],13.975916666666667
+wf36627e,Mon Feb 01 2021 13:13:22 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.47,True,True,No,1.0,[97785],14.430666666666667
+w85cb4f9,Mon Feb 01 2021 10:34:53 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.64,True,True,No,2.0,"[56918, 36547]",10.56265
+wde70d7c,Mon Feb 01 2021 13:37:23 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.61,True,True,No,1.0,[64118],11.013683333333333
+wc9b1793,Mon Feb 01 2021 10:19:15 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.68,True,True,No,1.0,[82793],12.5268
+wcacd23b,Mon Feb 01 2021 12:03:00 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.75,True,True,Yes,1.0,[35989],10.502916666666666
+w49b487f,Mon Feb 01 2021 13:25:24 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.6,True,True,No,1.0,[61562],11.0085
+wfb4bc5c,Mon Feb 01 2021 12:35:16 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.24,True,True,No,1.0,[29398],14.11745
+w73cfc09,Mon Feb 01 2021 13:14:33 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.47,True,True,Not sure,1.0,[50828],10.0285
+wc60255e,Mon Feb 01 2021 13:40:03 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.49,True,True,No,1.0,[54105],10.532283333333334
+wb1d44a5,Mon Feb 01 2021 13:22:29 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.51,True,True,No,1.0,[54619],12.310216666666667
+w9a8f6ff,Mon Feb 01 2021 13:43:31 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.59,True,True,No,3.0,"[17958, 14405, 8233]",11.60545
+w216da7e,Mon Feb 01 2021 13:30:46 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.67,True,True,No,1.0,[37287],10.829066666666666
+w9681113,Mon Feb 01 2021 10:49:02 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.28,True,True,No,1.0,[101066],15.494766666666667
+w7422809,Mon Feb 01 2021 13:23:25 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.52,True,True,No,1.0,[224549],23.194316666666666
+w52e10f5,Mon Feb 01 2021 12:24:14 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.63,True,True,No,1.0,[47271],10.296016666666667
+wf6210ad,Mon Feb 01 2021 10:29:04 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.86,True,True,No,2.0,"[51237, 27315]",15.88665
+w9b5cac5,Mon Feb 01 2021 10:44:47 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.55,True,True,No,1.0,[54105],29.1773
+wd0081d4,Mon Feb 01 2021 11:29:33 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.58,True,True,No,1.0,[29609],8.20195
+w952789a,Mon Feb 01 2021 11:45:03 GMT-0700 (Mountain Standard Time),2_4_24,meta,12,1,0.67,True,True,No,2.0,"[85702, 47563]",19.547483333333332
+wd596dfb,Mon Feb 01 2021 11:31:28 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,0.5,True,True,Yes,1.0,[92882],15.854716666666667
+w822dbd6,Mon Feb 01 2021 12:28:55 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.2,True,True,No,2.0,"[131477, 36275]",25.558316666666666
+w66e279e,Mon Feb 01 2021 13:27:03 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,False,,1.0,[79493],
+w7da44c7,Mon Feb 01 2021 13:57:06 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+wf3bb49d,Mon Feb 01 2021 10:42:45 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w1a8d4d0,Mon Feb 01 2021 13:07:58 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.2,True,True,No,1.0,[73274],21.866583333333335
+w5e97798,Mon Feb 01 2021 13:29:01 GMT-0500 (EST),2_4_24,none,12,1,,False,False,,2.0,"[89375, 40437]",
+wb19c9b2,Mon Feb 01 2021 09:30:33 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.6,True,True,No,1.0,[78380],14.698716666666666
+wac459ac,Mon Feb 01 2021 13:40:19 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.7,True,True,No,4.0,"[74423, 13388, 5272, 39862]",13.643666666666666
+w974dd49,Mon Feb 01 2021 10:39:23 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,,False,True,,,,
+w9a294c7,Mon Feb 01 2021 10:28:28 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w60a6aec,Mon Feb 01 2021 13:34:47 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+w3d9d165,Mon Feb 01 2021 18:41:28 GMT+0000 (Greenwich Mean Time),2_4_24,meta,12,1,0.54,True,True,No,1.0,[67463],13.904366666666666
+w3e91691,Mon Feb 01 2021 12:36:56 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,,False,False,,,,
+wa2ac3e8,Mon Feb 01 2021 12:14:08 GMT-0600 (CST),2_4_24,action,12,1,,False,False,,1.0,[51663],
+w7600665,Mon Feb 01 2021 13:23:33 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w7ecc99c,Mon Feb 01 2021 19:35:36 GMT+0100 (czas &#347;rodkowoeuropejski standardowy),2_4_24,meta,12,1,0.6,True,True,No,4.0,"[186385, 6875, 24466, 28761]",15.0114
+wb82f354,Mon Feb 01 2021 13:43:12 GMT-0500 (EST),2_4_24,action,12,1,0.65,True,True,No,1.0,[82073],17.85258333333333
+w50785fe,Mon Feb 01 2021 13:44:50 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.0,True,True,Yes,6.0,"[13052, 23933, 19953, 5618, 7800, 14540]",19.592933333333335
+wbf48387,Mon Feb 01 2021 12:48:58 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.65,True,True,No,1.0,[34963],10.069716666666666
+w553c4fe,Mon Feb 01 2021 12:13:45 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.23,True,True,Not sure,1.0,[47631],7.893433333333333
+w04f8a30,Mon Feb 01 2021 12:14:01 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.35,True,True,No,1.0,[314577],20.835183333333333
+wecb0c96,Mon Feb 01 2021 08:59:58 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w00f1425,Mon Feb 01 2021 11:42:10 GMT-0700 (Mountain Standard Time),2_4_24,meta,12,1,0.0,True,True,No,2.0,"[167709, 88083]",26.294033333333335
+w8f71810,Mon Feb 01 2021 12:27:42 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.57,True,True,No,2.0,"[56932, 13971]",10.6091
+w37f6c05,Mon Feb 01 2021 13:32:18 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+wfa98644,Mon Feb 01 2021 11:55:36 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.37,True,True,No,1.0,[81392],15.112433333333334
+we6f3113,Mon Feb 01 2021 10:29:30 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.61,True,True,No,1.0,[38639],10.62145
+we2adf14,Mon Feb 01 2021 12:18:43 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.45,True,True,No,1.0,[66661],15.747933333333334
+w2f7c465,Mon Feb 01 2021 11:19:03 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.39,True,True,No,1.0,[92208],19.921583333333334
+w57cddb3,Mon Feb 01 2021 13:10:33 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.37,True,True,No,2.0,"[35431, 26389]",15.126016666666667
+w6b1b7c5,Mon Feb 01 2021 13:05:28 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.45,True,True,No,1.0,[61919],11.531783333333333
+w64d60fc,Mon Feb 01 2021 11:06:54 GMT-0700 (Mountain Standard Time),2_4_24,action,12,1,0.16,True,True,Yes,1.0,[37348],12.343783333333333
+wd16177d,Mon Feb 01 2021 12:46:06 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.6,True,True,No,1.0,[160565],16.051783333333333
+wdab9c31,Mon Feb 01 2021 11:46:38 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+wc94aa43,Mon Feb 01 2021 19:43:22 GMT+0100 (czas &#347;rodkowoeuropejski standardowy),2_4_24,meta,12,1,0.65,True,True,No,2.0,"[93565, 32708]",15.88685
+waf3707e,Mon Feb 01 2021 12:44:59 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.61,True,True,No,1.0,[60787],16.21923333333333
+wf762351,Mon Feb 01 2021 12:29:52 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.37,True,True,No,1.0,[51483],8.37905
+wc56f217,Mon Feb 01 2021 18:05:30 GMT+0000 (Greenwich Mean Time),2_4_24,meta,12,1,0.48,True,True,No,2.0,"[37564, 28741]",13.920616666666668
+w3104315,Mon Feb 01 2021 12:32:41 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.7,True,True,No,1.0,[54828],10.514016666666667
+wa3e44c3,Mon Feb 01 2021 13:52:21 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,False,,2.0,"[166129, 132575]",
+w9fdf69d,Mon Feb 01 2021 13:38:23 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.49,True,True,No,2.0,"[80099, 37342]",13.140566666666667
+wdbcfba9,Mon Feb 01 2021 12:45:46 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,False,,,,
+w9150084,Mon Feb 01 2021 12:42:16 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,True,,,,
+we33f11a,Mon Feb 01 2021 13:37:47 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,False,,1.0,[75850],
+we191a7a,Mon Feb 01 2021 14:12:16 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.72,True,True,No,1.0,[35801],12.9523
+w6db0f97,Mon Feb 01 2021 13:31:53 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[89146],69.90535
+w88ba6db,Mon Feb 01 2021 09:34:05 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,,False,True,,,,
+waa35328,Mon Feb 01 2021 11:48:07 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.66,True,True,No,1.0,[67960],12.644283333333334
+wa51793d,Mon Feb 01 2021 10:11:02 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[82836],16.159066666666668
+w3c3e725,Mon Feb 01 2021 12:45:13 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.2,True,True,No,1.0,[73094],14.182916666666667
+w1ebe356,Mon Feb 01 2021 13:44:54 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.43,True,True,No,1.0,[140054],19.035466666666668
+w0332285,Mon Feb 01 2021 12:36:51 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.6,True,True,No,1.0,[89008],15.450466666666667
+w95dd100,Mon Feb 01 2021 13:38:45 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.35,True,True,No,1.0,[109692],14.2805
+w908b47f,Mon Feb 01 2021 13:39:06 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.62,True,True,No,2.0,"[39361, 16456]",9.886683333333334
+w066a715,Mon Feb 01 2021 10:42:25 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.6,True,True,No,1.0,[98128],23.760916666666667
+wff57731,Mon Feb 01 2021 12:36:40 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.53,True,True,No,1.0,[166611],20.49885
+w1133849,Mon Feb 01 2021 12:41:38 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.75,True,True,Yes,2.0,"[36448, 25684]",14.288016666666667
+w12ddeff,Mon Feb 01 2021 11:41:45 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,0.0,True,True,No,1.0,[101858],13.752116666666666
+wa77d5d7,Mon Feb 01 2021 12:42:41 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.67,True,True,No,1.0,[65525],15.160016666666667
+w504e675,Mon Feb 01 2021 18:41:04 GMT+0000 (Hora padr&#227;o da Europa Ocidental),2_4_24,action,12,1,0.27,True,True,No,1.0,[117778],15.719783333333334
+w1ba7061,Mon Feb 01 2021 13:38:57 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.38,True,True,No,1.0,[102284],16.14378333333333
+w48f89a1,Mon Feb 01 2021 12:21:41 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,,False,False,,2.0,"[81318, 51821]",
+w37a96c2,Mon Feb 01 2021 11:54:37 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.58,True,True,No,1.0,[85712],15.470833333333333
+w75851d4,Mon Feb 01 2021 19:19:54 GMT+0100 (czas &#347;rodkowoeuropejski standardowy),2_4_24,none,12,1,0.51,True,True,No,3.0,"[37158, 37132, 4202]",9.937283333333333
+w4091bce,Mon Feb 01 2021 13:10:20 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.46,True,True,No,1.0,[93018],19.94565
+w6a5935c,Mon Feb 01 2021 12:40:15 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.51,True,True,No,1.0,[50679],11.5248
+wdff6be8,Mon Feb 01 2021 10:55:44 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w8f66a39,Mon Feb 01 2021 13:45:05 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[32103],21.917983333333332
+w98bf507,Mon Feb 01 2021 13:41:20 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.7,True,True,No,1.0,[54279],11.520066666666667
+wf6c24ea,Mon Feb 01 2021 14:15:29 GMT-0500 (EST),2_4_24,action,12,1,,False,True,,,,
+w6a97990,Mon Feb 01 2021 13:51:39 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.69,True,True,No,1.0,[59181],10.083883333333333
+w5d56dfe,Mon Feb 01 2021 13:32:38 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.0,True,True,No,1.0,[64444],9.93435
+we99b5b4,Mon Feb 01 2021 13:26:29 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.55,True,True,No,2.0,"[70746, 11238]",12.258033333333334
+we849574,Mon Feb 01 2021 12:12:25 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,,False,False,,1.0,[21837],
+wba5cfab,Mon Feb 01 2021 12:37:46 GMT-0500 (EST),2_4_24,none,12,1,0.0,True,True,No,1.0,[50457],9.36645
+w3806f41,Mon Feb 01 2021 12:16:52 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.3,True,True,No,1.0,[67475],13.4367
+wa6386ac,Mon Feb 01 2021 13:43:08 GMT-0500 (EST),2_4_24,action,12,1,,False,False,,2.0,"[14779, 13537]",
+w41fc07c,Mon Feb 01 2021 15:21:41 GMT-0300 (hora de verano de Chile),2_4_24,meta,12,1,,False,True,,,,
+wbccf662,Mon Feb 01 2021 13:15:46 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.53,True,True,No,2.0,"[120581, 35106]",21.558766666666667
+w383bb6f,Tue Feb 02 2021 00:35:57 GMT+0600 (Bangladesh Standard Time),2_4_24,meta,12,1,0.09,True,True,Yes,3.0,"[54435, 54961, 8745]",26.77851666666667
+wed8863d,Mon Feb 01 2021 13:39:03 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.62,True,True,No,1.0,[107125],16.413166666666665
+w7e54ba1,Mon Feb 01 2021 11:28:03 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.47,True,True,No,1.0,[79796],12.140833333333333
+w909b325,Mon Feb 01 2021 11:15:31 GMT-0600 (CST),2_4_24,none,12,1,0.5,True,True,No,1.0,[24666],10.497166666666667
+w864d4b2,Mon Feb 01 2021 13:25:21 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.81,True,True,No,1.0,[49671],9.690716666666667
+wccecfea,Mon Feb 01 2021 13:54:56 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[47511],18.58031666666667
+w87378ec,Mon Feb 01 2021 13:30:47 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w0175c05,Mon Feb 01 2021 15:32:32 GMT-0300 (hora de verano de Chile),2_4_24,action,12,1,0.64,True,True,No,1.0,[95290],14.190566666666667
+wab4032a,Mon Feb 01 2021 10:58:33 GMT-0800 (PST),2_4_24,none,12,1,,False,False,,1.0,[124562],
+w870562f,Mon Feb 01 2021 15:16:29 GMT-0300 (hora de verano de Chile),2_4_24,action,12,1,0.81,True,True,No,1.0,[100136],16.0997
+wd2a2c7b,Mon Feb 01 2021 10:47:32 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.3,True,True,No,2.0,"[75123, 12913]",17.138766666666665
+w131bb1f,Mon Feb 01 2021 12:40:13 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.52,True,True,No,1.0,[50186],12.090816666666667
+w3ad57cb,Mon Feb 01 2021 13:31:05 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.68,True,True,No,1.0,[26158],12.368216666666667
+w768b992,Mon Feb 01 2021 20:32:29 GMT+0000 (Hora padr&#227;o da Europa Ocidental),2_4_24,none,12,1,,False,False,,1.0,[110080],
+w9c48e6a,Mon Feb 01 2021 11:38:40 GMT-0700 (Mountain Standard Time),2_4_24,action,12,1,0.52,True,True,Yes,1.0,[67194],11.7214
+w9d87962,Mon Feb 01 2021 13:12:58 GMT-0500 (EST),2_4_24,meta,12,1,,False,True,,,,
+w4cdd8c7,Mon Feb 01 2021 13:39:37 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.15,True,True,No,2.0,"[73562, 32504]",63.76045
+wbaef3e2,Mon Feb 01 2021 10:20:16 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.71,True,True,No,2.0,"[143937, 37601]",17.155083333333334
+wc1626b1,Mon Feb 01 2021 18:44:12 GMT+0000 (Greenwich Mean Time),2_4_24,none,12,1,0.5,True,True,No,2.0,"[101093, 32654]",16.616716666666665
+w1f49a65,Mon Feb 01 2021 13:20:51 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.57,True,True,No,1.0,[68334],11.990566666666666
+wd600cfe,Mon Feb 01 2021 13:59:57 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.59,True,True,No,1.0,[53431],10.724666666666666
+w61e9b7a,Mon Feb 01 2021 10:37:07 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.63,True,True,No,1.0,[78284],19.852883333333335
+wa655ea6,Mon Feb 01 2021 13:08:04 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.71,True,True,No,1.0,[65814],15.251
+w54499ba,Mon Feb 01 2021 11:53:38 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.86,True,True,No,1.0,[207918],28.4183
+wd316fd3,Mon Feb 01 2021 18:38:22 GMT+0000 (Greenwich Mean Time),2_4_24,action,12,1,0.07,True,True,No,2.0,"[38061, 16800]",13.681283333333333
+wffa22e4,Mon Feb 01 2021 12:28:30 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.61,True,True,No,3.0,"[294825, 13766, 17743]",16.068716666666667
+w08fad19,Mon Feb 01 2021 18:31:42 GMT+0000 (GMT),2_4_24,none,12,1,,False,False,,1.0,[86195],
+w0c4e953,Mon Feb 01 2021 08:52:45 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.69,True,True,No,1.0,[75634],14.566533333333334
+w711bb52,Mon Feb 01 2021 12:24:08 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.91,True,True,No,1.0,[39387],9.41205
+w3013d26,Mon Feb 01 2021 10:40:29 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.63,True,True,No,1.0,[110448],15.400233333333333
+w5f4991c,Mon Feb 01 2021 13:26:21 GMT-0500 (EST),2_4_24,action,12,1,0.65,True,True,No,2.0,"[69103, 22655]",12.4726
+w74c6f79,Mon Feb 01 2021 10:38:33 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,0.14,True,True,Not sure,2.0,"[122904, 16825]",16.939333333333334
+wc60c79d,Mon Feb 01 2021 10:40:46 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.72,True,True,No,2.0,"[81118, 86740]",19.258983333333333
+w0a1ea49,Mon Feb 01 2021 10:53:28 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.66,True,True,Yes,2.0,"[46428, 19823]",9.420066666666667
+w2224a1f,Mon Feb 01 2021 09:52:42 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.77,True,True,No,1.0,[100365],20.304466666666666
+w4f54495,Mon Feb 01 2021 12:39:11 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.61,True,True,No,1.0,[84690],19.050516666666667
+w2ce5269,Mon Feb 01 2021 12:48:16 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.54,True,True,No,2.0,"[104546, 54530]",14.393983333333333
+w060cff2,Mon Feb 01 2021 13:45:40 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,True,,,,
+w2e1b41e,Mon Feb 01 2021 13:10:20 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.34,True,True,No,1.0,[85345],19.638733333333334
+w8fb6fa1,Mon Feb 01 2021 11:35:35 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,,False,True,,,,
+w0557ec9,Mon Feb 01 2021 13:41:02 GMT-0500 (EST),2_4_24,none,12,1,,False,False,,1.0,[95125],
+wc1b0c87,Mon Feb 01 2021 10:43:53 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.76,True,True,No,1.0,[82605],15.348433333333332
+wbdd931d,Mon Feb 01 2021 18:16:47 GMT+0000 (Greenwich Mean Time),2_4_24,meta,12,1,0.59,True,True,No,2.0,"[143496, 53793]",16.827333333333332
+w8fb82b3,Mon Feb 01 2021 13:35:29 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,True,,,,
+wfb54fff,Mon Feb 01 2021 13:23:26 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.03,True,True,No,1.0,[66277],9.089166666666667
+wb23e9ec,Mon Feb 01 2021 11:56:48 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,True,,,,
+w2eb8ffb,Mon Feb 01 2021 13:42:59 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.66,True,True,No,1.0,[80542],12.670916666666667
+we547607,Mon Feb 01 2021 13:42:52 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.03,True,True,No,1.0,[34216],13.83525
+w4fdfaa8,Mon Feb 01 2021 10:05:47 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.61,True,True,No,1.0,[69577],11.184716666666667
+w0e8cc38,Mon Feb 01 2021 10:20:41 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.22,True,True,No,2.0,"[116963, 23084]",19.0284
+w2603817,Mon Feb 01 2021 12:17:18 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,False,,1.0,[59415],
+w4f70e59,Mon Feb 01 2021 13:20:30 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.14,True,True,No,2.0,"[80919, 14667]",23.7131
+wbe01bee,Mon Feb 01 2021 12:08:02 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.68,True,True,No,2.0,"[25599, 12787]",15.361833333333333
+w913158b,Mon Feb 01 2021 10:44:33 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,0.0,True,True,No,1.0,[72747],46.16575
+wd7312ba,Mon Feb 01 2021 13:11:41 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.5,True,True,No,1.0,[63133],15.889283333333333
+wd1971a1,Mon Feb 01 2021 11:30:32 GMT-0700 (MST),2_4_24,action,12,1,,False,False,,1.0,[118727],
+w8a08c15,Mon Feb 01 2021 19:16:00 GMT+0100 (czas &#347;rodkowoeuropejski standardowy),2_4_24,none,12,1,,False,True,,,,
+wa2c2fff,Mon Feb 01 2021 13:30:51 GMT-0500 (Ora standard orientale USA),2_4_24,meta,12,1,,False,True,,,,
+w34e51bd,Mon Feb 01 2021 19:40:52 GMT+0100 (GMT+01:00),2_4_24,meta,12,1,,False,False,,2.0,"[110244, 34226]",
+wa531f96,Mon Feb 01 2021 13:19:33 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.4,True,True,No,1.0,[52245],9.441916666666666
+w72a67a8,Mon Feb 01 2021 12:43:02 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.63,True,True,No,1.0,[65917],14.1335
+wb5542cf,Mon Feb 01 2021 11:41:53 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.0,True,True,No,3.0,"[45158, 69981, 19083]",11.943133333333334
+w5143b4a,Mon Feb 01 2021 14:20:56 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.23,True,True,No,1.0,[81478],21.39995
+wd222b5f,Mon Feb 01 2021 12:40:39 GMT-0600 (Central Standard Time),2_4_24,action,12,1,,False,False,,2.0,"[66364, 28379]",
+we213163,Mon Feb 01 2021 13:42:45 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.3,True,True,No,1.0,[53816],11.384266666666667
+wea39a49,Mon Feb 01 2021 13:39:41 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.58,True,True,No,3.0,"[65621, 17369, 12127]",13.779466666666666
+wcf83aaf,Mon Feb 01 2021 11:13:48 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,0.01,True,True,No,1.0,[722056],46.50103333333333
+we2d1dfd,Mon Feb 01 2021 11:04:46 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,0.53,True,True,No,1.0,[78836],10.87145
+wb4732b3,Mon Feb 01 2021 09:56:19 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.48,True,True,No,2.0,"[54809, 50702]",12.9451
+w76c9181,Mon Feb 01 2021 12:17:38 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.62,True,True,No,1.0,[51166],11.2064
+wcc72b06,Mon Feb 01 2021 12:39:25 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.44,True,True,No,1.0,[95652],15.469033333333334
+w55b7066,Mon Feb 01 2021 10:42:43 GMT-0700 (Mountain Standard Time),2_4_24,meta,12,1,0.8,True,True,No,1.0,[103923],20.45785
+wfd168a1,Mon Feb 01 2021 12:56:20 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.19,True,True,No,2.0,"[98917, 22924]",17.155266666666666
+wc7489d9,Mon Feb 01 2021 13:35:04 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.48,True,True,No,1.0,[62280],12.358416666666667
+w65df6b0,Mon Feb 01 2021 10:08:07 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.56,True,True,No,2.0,"[136243, 18371]",20.930816666666665
+wf71ec7d,Mon Feb 01 2021 10:47:19 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,,False,False,,1.0,[51818],
+w164f313,Mon Feb 01 2021 13:20:45 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.46,True,True,No,2.0,"[45019, 14894]",10.66195
+w7628afc,Mon Feb 01 2021 13:38:26 GMT-0500 (EST),2_4_24,none,12,1,0.38,True,True,No,1.0,[113427],18.47215
+wde69858,Mon Feb 01 2021 13:38:49 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.62,True,True,No,3.0,"[1354001, 28559, 28418]",35.97363333333333
+w87ba793,Mon Feb 01 2021 13:39:30 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.43,True,True,No,1.0,[106824],12.689583333333333
+w759fa4e,Mon Feb 01 2021 10:39:33 GMT-0800 (Pacific Standard Time),2_4_24,meta,12,1,,False,True,,,,
+w8ec6605,Mon Feb 01 2021 11:34:01 GMT-0700 (Mountain Standard Time),2_4_24,none,12,1,,False,True,,,,
+w803befa,Mon Feb 01 2021 12:45:01 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.5,True,True,No,2.0,"[72704, 15545]",20.0853
+wc5021f5,Mon Feb 01 2021 12:43:46 GMT-0600 (CST),2_4_24,none,12,1,,False,False,,1.0,[110715],
+wda39b48,Mon Feb 01 2021 12:47:23 GMT-0600 (Central Standard Time),2_4_24,none,12,1,0.47,True,True,No,1.0,[79989],23.5469
+w82e5f13,Mon Feb 01 2021 10:09:30 GMT-0800 (PST),2_4_24,meta,12,1,,False,False,,1.0,[118533],
+w6c8a977,Mon Feb 01 2021 12:16:30 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.5,True,True,No,1.0,[114705],41.4792
+w4e7d170,Mon Feb 01 2021 12:51:15 GMT-0600 (Central Standard Time),2_4_24,none,12,1,,False,True,,,,
+w8430676,Mon Feb 01 2021 12:39:13 GMT-0500 (EST),2_4_24,action,12,1,,False,False,,1.0,[104545],
+we4a987a,Mon Feb 01 2021 13:44:26 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.6,True,True,No,2.0,"[75950, 9861]",13.8848
+wc336e2f,Mon Feb 01 2021 13:10:59 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.68,True,True,No,1.0,[52773],9.707766666666666
+w3052d4f,Mon Feb 01 2021 12:16:15 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.71,True,True,No,1.0,[83133],15.0962
+w05c03dc,Mon Feb 01 2021 13:44:49 GMT-0500 (EST),2_4_24,none,12,1,0.74,True,True,No,1.0,[105487],14.131466666666666
+w2b98d1e,Mon Feb 01 2021 13:43:59 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.55,True,True,No,1.0,[74233],16.35465
+wf69e14e,Mon Feb 01 2021 11:32:50 GMT-0700 (MST),2_4_24,action,12,1,0.62,True,True,No,1.0,[143356],15.058683333333333
+w41e6171,Mon Feb 01 2021 13:47:58 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,False,,1.0,[163948],
+w0334984,Mon Feb 01 2021 13:34:46 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,,False,True,,,,
+wc0787f1,Mon Feb 01 2021 13:44:59 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.63,True,True,No,2.0,"[73735, 27219]",12.39125
+weefa095,Mon Feb 01 2021 12:29:45 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.51,True,True,No,1.0,[91855],11.841133333333334
+w37ad53f,Mon Feb 01 2021 13:35:39 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+wc298d78,Mon Feb 01 2021 13:41:05 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.49,True,True,No,1.0,[126563],18.288816666666666
+wffe1452,Mon Feb 01 2021 10:41:00 GMT-0800 (Pacific Standard Time),2_4_24,none,12,1,,False,True,,,,
+w57c3149,Mon Feb 01 2021 13:30:51 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,,False,True,,,,
+w801a8f0,Mon Feb 01 2021 12:39:36 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,0.61,True,True,No,2.0,"[84908, 9777]",12.294866666666667
+we8e00b1,Mon Feb 01 2021 13:10:55 GMT-0500 (EST),2_4_24,none,12,1,,False,True,,,,
+w94b12b9,Mon Feb 01 2021 13:31:30 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.6,True,True,No,1.0,[87207],12.829383333333332
+wc1b79e1,Mon Feb 01 2021 13:34:26 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.0,True,True,No,1.0,[65214],19.694866666666666
+wfae338d,Mon Feb 01 2021 13:52:47 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.58,True,True,No,2.0,"[62384, 19428]",11.702183333333334
+w9c62672,Mon Feb 01 2021 10:32:34 GMT-0800 (Pacific Standard Time),2_4_24,action,12,1,0.52,True,True,No,1.0,[88256],14.7525
+w3f028f3,Mon Feb 01 2021 17:51:18 GMT+0000 (Greenwich Mean Time),2_4_24,action,12,1,0.17,True,True,No,1.0,[134760],22.857566666666667
+wbd28639,Mon Feb 01 2021 13:42:45 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.55,True,True,No,1.0,[109487],17.2439
+w4c3d2d7,Mon Feb 01 2021 13:33:03 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,,False,True,,,,
+w1ba33d0,Mon Feb 01 2021 11:21:49 GMT-0700 (Mountain Standard Time),2_4_24,action,12,1,0.53,True,True,No,1.0,[486049],22.868116666666666
+w459b9e5,Mon Feb 01 2021 12:43:28 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.4,True,True,No,2.0,"[84216, 14110]",15.35175
+w9f9da77,Mon Feb 01 2021 13:45:14 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.09,True,True,No,1.0,[57686],20.443266666666666
+w84d89c8,Mon Feb 01 2021 12:33:27 GMT-0600 (Central Standard Time),2_4_24,meta,12,1,,False,False,,2.0,"[87890, 8641]",
+w7892c83,Mon Feb 01 2021 13:03:27 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.62,True,True,No,1.0,[75698],17.949983333333332
+w60c57f3,Mon Feb 01 2021 13:07:24 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.58,True,True,No,1.0,[53403],14.043983333333333
+we9f86ad,Mon Feb 01 2021 09:34:46 GMT-0900 (Alaska Standard Time),2_4_24,action,12,1,0.84,True,True,No,2.0,"[89684, 27934]",16.49265
+w268ba50,Mon Feb 01 2021 13:42:18 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.68,True,True,Yes,1.0,[28362],9.654833333333332
+wdfa349a,Mon Feb 01 2021 13:44:22 GMT-0500 (Eastern Standard Time),2_4_24,meta,12,1,0.59,True,True,No,1.0,[54731],12.13295
+wa5f061a,Mon Feb 01 2021 13:35:39 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.61,True,True,No,1.0,[55702],12.166616666666666
+w8278843,Mon Feb 01 2021 13:06:22 GMT-0500 (Eastern Standard Time),2_4_24,action,12,1,0.55,True,True,No,1.0,[53435],15.246533333333334
+w21f2f2f,Mon Feb 01 2021 13:43:35 GMT-0500 (Eastern Standard Time),2_4_24,none,12,1,0.02,True,True,No,1.0,[24010],9.80415
+w83ecf8d,Mon Feb 01 2021 12:29:01 GMT-0600 (Central Standard Time),2_4_24,action,12,1,0.51,True,True,No,1.0,[124529],13.367866666666666
