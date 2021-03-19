@@ -189,21 +189,14 @@ class Figures(object):
 
 
 sns.set_style('whitegrid')
-blue, orange = sns.color_palette('tab10')[:2]
+blue, orange, green = sns.color_palette('tab10')[:3]
 gray = (0.5,)*3
 red = (1, 0.2, 0.3)
 yellow = (0.9, 0.85, 0)
 
-palette = {
-    'none': gray,
-    'action': blue,
-    'meta': orange,
-    'info_only': red,
-    'reward_only': yellow,
-    'both': orange,
-}
 
 palette = {
+    'video': green,
     'none': gray,
     'action': blue,
     'meta': orange,
@@ -216,6 +209,7 @@ nice_names = {
     'meta': 'Metacognitive',
     'action': 'Action',
     'none': 'None',
+    'video': 'Video',
     'feedback': 'Feedback',
     'info_only': 'Information\nOnly',
     'reward_only': 'Delay Penalty\nOnly',
