@@ -274,3 +274,15 @@ class Figures(object):
             return wrapped
 
         return decorator
+
+def get_stars(p):
+    if p < .001:
+        return '***'
+    elif p < .01:
+        return '**'
+    elif p < .05:
+        return '*'
+    else:
+        return None
+
+    
