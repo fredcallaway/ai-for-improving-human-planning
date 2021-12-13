@@ -176,7 +176,7 @@ class Figures(object):
             def wrapped(*args, **kwargs):
                 kwargs.update(kwargs1)
                 params = [v for v in kwargs1.values() if v is not None]
-                param_str = '_' + str_join(params).rstrip('_') if params else ''
+                param_str = '_' + str_join(params, sep='_').rstrip('_') if params else ''
                 name = func.__name__ + param_str
                 if name.startswith('plot_'):
                     name = name[len('plot_'):]
@@ -206,18 +206,16 @@ palette = {
 }
 
 nice_names = {
-    'meta': 'Metacognitive',
-    'action': 'Action',
-    'none': 'None',
-    'video': 'Video',
+    'meta': 'Metacognitive\nFeedback',
+    'action': 'Action\nFeedback',
+    'none': 'No\nFeedback',
+    'video': 'Video\nOnly',
     'feedback': 'Feedback',
     'info_only': 'Information\nOnly',
     'reward_only': 'Delay Penalty\nOnly',
     'both': 'Information &\nDelay Penalty',
     'score': 'Average Score',
-    'backward': 'Proportion Planning Backward',
-    'bonus': 'Bonus Amount ($)',
-    'stage2_n_click': 'Average # Clicks in Transfer'
+    'backward': 'Proportion Planning Backward'
 }
 
 def reformat_labels(ax=None):
@@ -238,12 +236,13 @@ def plot_block_changes():
     for t in block_changes:
         plt.axvline(t-0.5, c='k', ls='--')
 
-# from datetime import datetime
-# # os.makedirs(f'stats/{EXPERIMENT}/', exist_ok=True)
-# def result_file(name, ext='tex'):
-#     file = f'stats/{EXPERIMENT}-{name}.{ext}'
-# #     with open(file, 'w+') as f:
-# #         timestamp = datetime.now().strftime('Created on %m/%d/%y at %H:%M:%S\n\n')
-# #         f.write(timestamp)
-#     return file
+def get_stars(p):
+    if p < .001:
+        return '***'
+    elif p < .01:
+        return '**'
+    elif p < .05:
+        return '*'
+    else:
+        return None
 
