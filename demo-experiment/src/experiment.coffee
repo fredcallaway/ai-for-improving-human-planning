@@ -33,8 +33,8 @@ BLOCKS = undefined
 PARAMS = undefined
 TRIALS = undefined
 OBJECT_LEVEL_PR = undefined
-GOSLOW = true
-GOFAST = true
+GOSLOW = false
+GOFAST = false
 DEMO_TRIALS = undefined
 STRUCTURE = undefined
 N_TRIAL = undefined
@@ -140,13 +140,14 @@ createStartButton = ->
       <br><br>
       <div class='center'>
         <button class='btn btn-primary btn-lg centered' id="cond0">No Feedback</button>
-        <button class='btn btn-primary btn-lg centered' id="cond1">Action Feedback</button>
-        <button class='btn btn-primary btn-lg centered' id="cond2">Metacognitive Feedback</button>
+        <button class='btn btn-primary btn-lg centered' id="cond1">Metacognitive Feedback</button>
+        <button class='btn btn-primary btn-lg centered' id="cond2">Action Feedback</button>
       </div>
     """
 
-    for i in[0,1,2]
+    [0,1,2].forEach (i) ->
       $("#cond#{i}").click ->
+        console.log i
         CONDITION = i
         SKIP_INSTRUCTIONS = $("#skipinstruct").prop('checked')
         with_feedback = CONDITION > 0

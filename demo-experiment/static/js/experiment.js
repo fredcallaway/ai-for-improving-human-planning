@@ -38,9 +38,9 @@ TRIALS = void 0;
 
 OBJECT_LEVEL_PR = void 0;
 
-GOSLOW = true;
+GOSLOW = false;
 
-GOFAST = true;
+GOFAST = false;
 
 DEMO_TRIALS = void 0;
 
@@ -155,17 +155,15 @@ $(window).on('load', function() {
 });
 
 createStartButton = function() {
-  var i, j, len, ref;
   if (DEBUG || TALK) {
     initializeExperiment();
     return;
   }
   if (DEMO) {
-    $('#jspsych-target').append("\nPlease select which condition you'd like to try. Mark the checkbox below if you want to skip\nthe instructions and go straight to the training trials.\n<br><br>\n<b>Skip instructions:</b> <input type=\"checkbox\" id=\"skipinstruct\">\n<br><br>\n<div class='center'>\n  <button class='btn btn-primary btn-lg centered' id=\"cond0\">No Feedback</button>\n  <button class='btn btn-primary btn-lg centered' id=\"cond1\">Action Feedback</button>\n  <button class='btn btn-primary btn-lg centered' id=\"cond2\">Metacognitive Feedback</button>\n</div>");
-    ref = [0, 1, 2];
-    for (j = 0, len = ref.length; j < len; j++) {
-      i = ref[j];
-      $(`#cond${i}`).click(function() {
+    $('#jspsych-target').append("\nPlease select which condition you'd like to try. Mark the checkbox below if you want to skip\nthe instructions and go straight to the training trials.\n<br><br>\n<b>Skip instructions:</b> <input type=\"checkbox\" id=\"skipinstruct\">\n<br><br>\n<div class='center'>\n  <button class='btn btn-primary btn-lg centered' id=\"cond0\">No Feedback</button>\n  <button class='btn btn-primary btn-lg centered' id=\"cond1\">Metacognitive Feedback</button>\n  <button class='btn btn-primary btn-lg centered' id=\"cond2\">Action Feedback</button>\n</div>");
+    [0, 1, 2].forEach(function(i) {
+      return $(`#cond${i}`).click(function() {
+        console.log(i);
         CONDITION = i;
         SKIP_INSTRUCTIONS = $("#skipinstruct").prop('checked');
         with_feedback = CONDITION > 0;
@@ -173,7 +171,7 @@ createStartButton = function() {
         with_object_level_FB = CONDITION === 2;
         return initializeExperiment();
       });
-    }
+    });
   }
   $('#load-icon').hide();
   return $('#slow-load').hide();
